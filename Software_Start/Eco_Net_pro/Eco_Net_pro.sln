@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eco_Net_pro", "Eco_Net_pro\Eco_Net_pro.csproj", "{6F9EC8B3-CFE4-49E6-9D8F-E0B8D89E103A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F9EC8B3-CFE4-49E6-9D8F-E0B8D89E103A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9EC8B3-CFE4-49E6-9D8F-E0B8D89E103A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9EC8B3-CFE4-49E6-9D8F-E0B8D89E103A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9EC8B3-CFE4-49E6-9D8F-E0B8D89E103A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD669B85-8610-4B09-813F-BB182A6C1CD3}
+	EndGlobalSection
+EndGlobal
