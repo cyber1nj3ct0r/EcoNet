@@ -1,0 +1,13 @@
+C:\Users\Dilum\source\repos\logRegEcoNet\logRegEcoNet\bin\Debug\logRegEcoNet.exe.config
+C:\Users\Dilum\source\repos\logRegEcoNet\logRegEcoNet\bin\Debug\logRegEcoNet.exe
+C:\Users\Dilum\source\repos\logRegEcoNet\logRegEcoNet\bin\Debug\logRegEcoNet.pdb
+C:\Users\Dilum\source\repos\logRegEcoNet\logRegEcoNet\bin\Debug\Guna.UI2.dll
+C:\Users\Dilum\source\repos\logRegEcoNet\logRegEcoNet\obj\Debug\logRegEcoNet.csproj.AssemblyReference.cache
+C:\Users\Dilum\source\repos\logRegEcoNet\logRegEcoNet\obj\Debug\logRegEcoNet.Properties.Resources.resources
+C:\Users\Dilum\source\repos\logRegEcoNet\logRegEcoNet\obj\Debug\logRegEcoNet.csproj.GenerateResource.cache
+C:\Users\Dilum\source\repos\logRegEcoNet\logRegEcoNet\obj\Debug\logRegEcoNet.csproj.CoreCompileInputs.cache
+C:\Users\Dilum\source\repos\logRegEcoNet\logRegEcoNet\obj\Debug\logRegEcoNet.csproj.CopyComplete
+C:\Users\Dilum\source\repos\logRegEcoNet\logRegEcoNet\obj\Debug\logRegEcoNet.exe
+C:\Users\Dilum\source\repos\logRegEcoNet\logRegEcoNet\obj\Debug\logRegEcoNet.pdb
+C:\Users\Dilum\source\repos\logRegEcoNet\logRegEcoNet\obj\Debug\logRegEcoNet.Login.resources
+C:\Users\Dilum\source\repos\logRegEcoNet\logRegEcoNet\obj\Debug\logRegEcoNet.Registration.resources
