@@ -19,6 +19,8 @@ namespace Eco_Net_pro
             InitializeComponent();
         }
 
+        
+
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -64,6 +66,8 @@ namespace Eco_Net_pro
             {
                 if(password == Security.Decrypt(data.Password))
                 {
+                    OnLoginSuccess(email);
+
                     Hide();
                     Mainform form = new Mainform();
                     form.ShowDialog();
@@ -78,8 +82,11 @@ namespace Eco_Net_pro
             {
                 MessageBox.Show("Login Failed.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+           
         }
 
+        
 
         private void ResetErrorHighlight()
         {
@@ -100,6 +107,12 @@ namespace Eco_Net_pro
         private bool IsValidEmail(string email)
         {
             return System.Text.RegularExpressions.Regex.IsMatch(email, @"^[a-z0-9]+@gmail\.com$", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+        }
+
+        private void OnLoginSuccess(string userEmail)
+        {
+            // Set the logged-in email in the UserData class
+            UserData.LoggedInEmail = userEmail;
         }
 
     }

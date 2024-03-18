@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 namespace Eco_Net_pro.Classes
 {
     [FirestoreData]
-    internal class UserData
+    public class UserData
     {
+        public static string LoggedInEmail { get; internal set; }
         [FirestoreProperty]
         public string Username { get; set; }
         [FirestoreProperty]
@@ -22,6 +23,8 @@ namespace Eco_Net_pro.Classes
         public string Gender { get; set; }
         [FirestoreProperty]
         public string Country { get; set; }
+        [FirestoreProperty]
+        public string PINCode { get; set; }
        
 
     }

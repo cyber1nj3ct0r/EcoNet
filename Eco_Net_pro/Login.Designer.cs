@@ -95,6 +95,7 @@
             this.PinCodeBox.Location = new System.Drawing.Point(64, 261);
             this.PinCodeBox.Name = "PinCodeBox";
             this.PinCodeBox.PasswordChar = '\0';
+            this.PinCodeBox.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.PinCodeBox.PlaceholderText = "PinCode";
             this.PinCodeBox.SelectedText = "";
             this.PinCodeBox.Size = new System.Drawing.Size(288, 36);
@@ -159,6 +160,7 @@
             this.PasswordBox.Location = new System.Drawing.Point(64, 201);
             this.PasswordBox.Name = "PasswordBox";
             this.PasswordBox.PasswordChar = '●';
+            this.PasswordBox.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.PasswordBox.PlaceholderText = "Password";
             this.PasswordBox.SelectedText = "";
             this.PasswordBox.Size = new System.Drawing.Size(288, 36);
@@ -182,6 +184,7 @@
             this.EmailBox.Location = new System.Drawing.Point(64, 159);
             this.EmailBox.Name = "EmailBox";
             this.EmailBox.PasswordChar = '\0';
+            this.EmailBox.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.EmailBox.PlaceholderText = "Email";
             this.EmailBox.SelectedText = "";
             this.EmailBox.Size = new System.Drawing.Size(288, 36);

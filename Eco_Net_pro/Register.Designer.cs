@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Register));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.CodeBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.linkBackLogin = new System.Windows.Forms.LinkLabel();
             this.CountryBox = new Guna.UI2.WinForms.Guna2TextBox();
             this.GenderBox = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -57,6 +58,7 @@
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.Controls.Add(this.CodeBox);
             this.guna2Panel1.Controls.Add(this.linkBackLogin);
             this.guna2Panel1.Controls.Add(this.CountryBox);
             this.guna2Panel1.Controls.Add(this.GenderBox);
@@ -75,6 +77,29 @@
             this.guna2Panel1.Size = new System.Drawing.Size(406, 560);
             this.guna2Panel1.TabIndex = 2;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
+            // 
+            // CodeBox
+            // 
+            this.CodeBox.Animated = true;
+            this.CodeBox.BorderRadius = 5;
+            this.CodeBox.BorderThickness = 0;
+            this.CodeBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.CodeBox.DefaultText = "";
+            this.CodeBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.CodeBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.CodeBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CodeBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CodeBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CodeBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.CodeBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CodeBox.Location = new System.Drawing.Point(202, 301);
+            this.CodeBox.Name = "CodeBox";
+            this.CodeBox.PasswordChar = '\0';
+            this.CodeBox.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.CodeBox.PlaceholderText = "Pin Code";
+            this.CodeBox.SelectedText = "";
+            this.CodeBox.Size = new System.Drawing.Size(150, 36);
+            this.CodeBox.TabIndex = 14;
             // 
             // linkBackLogin
             // 
@@ -107,9 +132,10 @@
             this.CountryBox.Location = new System.Drawing.Point(64, 301);
             this.CountryBox.Name = "CountryBox";
             this.CountryBox.PasswordChar = '\0';
+            this.CountryBox.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.CountryBox.PlaceholderText = "Country";
             this.CountryBox.SelectedText = "";
-            this.CountryBox.Size = new System.Drawing.Size(288, 36);
+            this.CountryBox.Size = new System.Drawing.Size(132, 36);
             this.CountryBox.TabIndex = 12;
             this.CountryBox.TextChanged += new System.EventHandler(this.guna2TextBox6_TextChanged);
             // 
@@ -126,11 +152,13 @@
             this.GenderBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.GenderBox.ItemHeight = 30;
             this.GenderBox.Items.AddRange(new object[] {
+            "Gender",
             "Male",
             "Female"});
             this.GenderBox.Location = new System.Drawing.Point(64, 217);
             this.GenderBox.Name = "GenderBox";
             this.GenderBox.Size = new System.Drawing.Size(288, 36);
+            this.GenderBox.StartIndex = 1;
             this.GenderBox.TabIndex = 10;
             this.GenderBox.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
@@ -151,6 +179,7 @@
             this.PhoneBox.Location = new System.Drawing.Point(64, 259);
             this.PhoneBox.Name = "PhoneBox";
             this.PhoneBox.PasswordChar = '\0';
+            this.PhoneBox.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.PhoneBox.PlaceholderText = "Phone Number";
             this.PhoneBox.SelectedText = "";
             this.PhoneBox.Size = new System.Drawing.Size(288, 36);
@@ -174,6 +203,7 @@
             this.CPasswordBox.Location = new System.Drawing.Point(64, 385);
             this.CPasswordBox.Name = "CPasswordBox";
             this.CPasswordBox.PasswordChar = '●';
+            this.CPasswordBox.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.CPasswordBox.PlaceholderText = "Confirm Password";
             this.CPasswordBox.SelectedText = "";
             this.CPasswordBox.Size = new System.Drawing.Size(288, 36);
@@ -198,6 +228,7 @@
             this.PasswordBox.Location = new System.Drawing.Point(64, 343);
             this.PasswordBox.Name = "PasswordBox";
             this.PasswordBox.PasswordChar = '●';
+            this.PasswordBox.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.PasswordBox.PlaceholderText = "Password";
             this.PasswordBox.SelectedText = "";
             this.PasswordBox.Size = new System.Drawing.Size(288, 36);
@@ -222,6 +253,7 @@
             this.EmailBox.Location = new System.Drawing.Point(64, 175);
             this.EmailBox.Name = "EmailBox";
             this.EmailBox.PasswordChar = '\0';
+            this.EmailBox.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.EmailBox.PlaceholderText = "Email";
             this.EmailBox.SelectedText = "";
             this.EmailBox.Size = new System.Drawing.Size(288, 36);
@@ -297,6 +329,7 @@
             this.NameBox.Location = new System.Drawing.Point(64, 133);
             this.NameBox.Name = "NameBox";
             this.NameBox.PasswordChar = '\0';
+            this.NameBox.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.NameBox.PlaceholderText = "Full Name";
             this.NameBox.SelectedText = "";
             this.NameBox.Size = new System.Drawing.Size(288, 36);
@@ -384,5 +417,6 @@
         private Guna.UI2.WinForms.Guna2TextBox PhoneBox;
         private System.Windows.Forms.LinkLabel linkBackLogin;
         private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
+        private Guna.UI2.WinForms.Guna2TextBox CodeBox;
     }
 }

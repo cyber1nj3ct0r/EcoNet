@@ -21,10 +21,15 @@ namespace Eco_Net_pro
         {
             [FirestoreProperty]
             public string Name { get; set; }
+            [FirestoreProperty]
+            public DateTime Sdate { get; internal set; }
+            [FirestoreProperty]
+            public DateTime Edate { get; internal set; }
+            [FirestoreProperty]
+            public string Rank { get; set; }
         }
 
         FirestoreDb database;
-        private int rowIndexCounter = 1;
         public Green_Step()
         {
             InitializeComponent();
@@ -35,7 +40,8 @@ namespace Eco_Net_pro
         {
             database = FireStoreHelp.Database;
 
-            GetAllDocuments("AppUser");
+            
+            GetAllDocuments("GreenStep");
 
 
         }
@@ -51,10 +57,22 @@ namespace Eco_Net_pro
                 {
                     GreenstepClass greenstepclass = documentSnapshot.ConvertTo<GreenstepClass>();
 
-                    guna2DataGridView1.Rows.Add(rowIndexCounter++, documentSnapshot.Id, greenstepclass.Name);
+                    guna2DataGridView1.Rows.Add(documentSnapshot.Id, greenstepclass.Name, greenstepclass.Sdate, greenstepclass.Edate, greenstepclass.Rank);
 
                 }
             }
+
+            UpdateRowCountLabel();
+        }
+
+        private void UpdateRowCountLabel()
+        {
+            // Get the row count of the DataGridView
+            int rowCount = guna2DataGridView1.RowCount;
+
+            // Update the text of the label with the row count
+            label8.Text = $"{rowCount}";
+            label9.Text = $"{rowCount}";
         }
     }
 }

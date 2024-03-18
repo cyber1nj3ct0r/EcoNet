@@ -199,6 +199,7 @@ namespace Eco_Net_pro
             string phone = PhoneBox.Text.Trim();
             string gender = GenderBox.Text.Trim();
             string country = CountryBox.Text.Trim();
+            string PINCode = CodeBox.Text.Trim();
 
             return new UserData()
             {
@@ -207,7 +208,8 @@ namespace Eco_Net_pro
                 Email = email,
                 Phone = phone,
                 Gender = gender,
-                Country = country
+                Country = country,
+                PINCode = PINCode
 
             };
         }

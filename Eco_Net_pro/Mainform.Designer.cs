@@ -157,7 +157,6 @@
             this.btnSetting.Animated = true;
             this.btnSetting.BackColor = System.Drawing.Color.Transparent;
             this.btnSetting.BorderColor = System.Drawing.Color.Transparent;
-            this.btnSetting.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
             this.btnSetting.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnSetting.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnSetting.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -339,7 +338,6 @@
         private Guna.UI2.WinForms.Guna2Button btnLogo;
         private Guna.UI2.WinForms.Guna2Button btnSetting;
         private Setting setting1;
-        private Profile profile1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2PictureBox PositionInd;
     }

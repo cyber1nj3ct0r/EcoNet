@@ -20,7 +20,6 @@ namespace Eco_Net_pro
         Report report;
         AccManage accManage;
         Setting setting;
-        Profile profile;
         
         public Mainform()
         {
@@ -30,7 +29,6 @@ namespace Eco_Net_pro
             report = new Report();
             accManage = new AccManage();
             setting = new Setting();
-            profile = new Profile();
 
             InitializeComponent();
         }
@@ -46,7 +44,6 @@ namespace Eco_Net_pro
             report.Hide();
             accManage.Hide();
             setting.Hide();
-            profile.Hide();
 
             dash.Show();
             dash.Dock = DockStyle.Fill;
@@ -62,7 +59,6 @@ namespace Eco_Net_pro
             report.Hide();
             accManage.Hide();
             setting.Hide();
-            profile.Hide();
 
             dash.Show();
             dash.Dock = DockStyle.Fill;
@@ -80,7 +76,6 @@ namespace Eco_Net_pro
             report.Hide();
             accManage.Hide();
             setting.Hide();
-            profile.Hide();
 
             tool.Show();
             tool.Dock = DockStyle.Fill;
@@ -97,7 +92,6 @@ namespace Eco_Net_pro
             report.Hide();
             accManage.Hide();
             setting.Hide();
-            profile.Hide();
 
             task.Show();
             task.Dock = DockStyle.Fill;
@@ -114,7 +108,6 @@ namespace Eco_Net_pro
             task.Hide();
             accManage.Hide();
             setting.Hide();
-            profile.Hide();
 
             report.Show();
             report.Dock = DockStyle.Fill;
@@ -131,7 +124,6 @@ namespace Eco_Net_pro
             report.Hide();
             task.Hide();
             setting.Hide();
-            profile.Hide();
 
             accManage.Show();
             accManage.Dock = DockStyle.Fill;
@@ -155,7 +147,6 @@ namespace Eco_Net_pro
             report.Hide();
             task.Hide();
             accManage.Hide();
-            profile.Hide();
 
             setting.Show();
             setting.Dock = DockStyle.Fill;
@@ -170,12 +161,11 @@ namespace Eco_Net_pro
             report.Hide();
             task.Hide();
             accManage.Hide();
-            setting.Hide();
 
-            profile.Show();
-            profile.Dock = DockStyle.Fill;
-            this.Controls.Add(profile);
-            profile.BringToFront();
+            setting.Show();
+            setting.Dock = DockStyle.Fill;
+            this.Controls.Add(setting);
+            setting.BringToFront();
         }
        
 

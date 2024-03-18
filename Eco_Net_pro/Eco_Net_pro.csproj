@@ -168,9 +168,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\AppData.cs" />
     <Compile Include="Classes\FireStoreHelp.cs" />
     <Compile Include="Classes\Security.cs" />
     <Compile Include="Classes\UserData.cs" />
+    <Compile Include="EditForms\AddGreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\AddGreen.Designer.cs">
+      <DependentUpon>AddGreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditForms\AddAqua.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -212,6 +219,12 @@
     </Compile>
     <Compile Include="EditForms\AddCrops.Designer.cs">
       <DependentUpon>AddCrops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\DelGreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\DelGreen.Designer.cs">
+      <DependentUpon>DelGreen.cs</DependentUpon>
     </Compile>
     <Compile Include="EditForms\DelAqua.cs">
       <SubType>Form</SubType>
@@ -344,12 +357,6 @@
     <Compile Include="ToolPages\Marketplace.Designer.cs">
       <DependentUpon>Marketplace.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Profile.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Forms\Profile.Designer.cs">
-      <DependentUpon>Profile.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Forms\Report.cs">
@@ -376,6 +383,9 @@
     <Compile Include="Forms\Tool.Designer.cs">
       <DependentUpon>Tool.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="EditForms\AddGreen.resx">
+      <DependentUpon>AddGreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditForms\AddAqua.resx">
       <DependentUpon>AddAqua.cs</DependentUpon>
     </EmbeddedResource>
@@ -396,6 +406,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EditForms\AddCrops.resx">
       <DependentUpon>AddCrops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\DelGreen.resx">
+      <DependentUpon>DelGreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditForms\DelAqua.resx">
       <DependentUpon>DelAqua.cs</DependentUpon>
@@ -462,9 +475,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ToolPages\Marketplace.resx">
       <DependentUpon>Marketplace.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Profile.resx">
-      <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -647,9 +657,6 @@
     <None Include="Resources\icons8-badge-96.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icons8-add-64.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-add-96 %281%29.png" />
   </ItemGroup>
   <ItemGroup>
@@ -693,6 +700,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-done-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-update-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-update-32 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-update-32 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cloud-database-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-connection-status-on-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-connection-status-on-32 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cloud-development-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cloud-development-32 %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />

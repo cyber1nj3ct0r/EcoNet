@@ -18,7 +18,6 @@ C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.Task.re
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.Report.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.AccManage.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.Setting.resources
-C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.Profile.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.Green_Step.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.Growing_Crops.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.Aqua_Guard.resources
@@ -139,3 +138,5 @@ C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.EditFor
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.EditForms.AddCommunity.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.EditForms.AddAqua.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.EditForms.DelAqua.resources
+C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.EditForms.AddGreen.resources
+C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.EditForms.DelGreen.resources
