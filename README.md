@@ -22,23 +22,13 @@ agriculture and daily life.
 - `EcoNet` is a platform designed to tackle environmental issues related to sustainability and agriculture. It offers an app and software with various features, catering to a broad audience interested in environmentally responsible practices. 
 
 #### Farmers and Agricultural Experts
-```
-A valuable resource for farmers and agricultural professionals, providing tools to track and 
-reduce carbon emissions, aiding in better decision-making and climate change adaptation 
-through information and analysis. 
-```
+```A valuable resource for farmers and agricultural professionals, providing tools to track and reduce carbon emissions, aiding in better decision-making and climate change adaptation through information and analysis. ```
 
 #### Customers with Green Grocers
-```
-An eco-friendly marketplace that allows environmentally conscious customers to find and 
-purchase products with verified sustainability credentials.
-```
+```An eco-friendly marketplace that allows environmentally conscious customers to find and purchase products with verified sustainability credentials.```
 
 #### Nature Enthusiasts and Researchers
-```
-A valuable resource for nature enthusiasts, researchers and environmentalists, providing 
-information on local biodiversity and conservation efforts. 
-```
+```A valuable resource for nature enthusiasts, researchers and environmentalists, providing information on local biodiversity and conservation efforts.```
 
 
 ## 🚀 About Us
