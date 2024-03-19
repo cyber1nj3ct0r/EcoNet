@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mainform));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.btnAlert = new Guna.UI2.WinForms.Guna2Button();
@@ -45,7 +46,9 @@
             this.btnTool = new Guna.UI2.WinForms.Guna2Button();
             this.btnDash = new Guna.UI2.WinForms.Guna2Button();
             this.MainformPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PositionInd)).BeginInit();
             this.MainPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.boxbox)).BeginInit();
@@ -54,12 +57,26 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(72)))), ((int)(((byte)(83)))));
+            this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
+            this.guna2Panel1.Controls.Add(this.guna2Button1);
             this.guna2Panel1.Controls.Add(this.guna2Panel3);
             this.guna2Panel1.Controls.Add(this.guna2Button9);
             this.guna2Panel1.Controls.Add(this.btnAlert);
             this.guna2Panel1.Controls.Add(this.btnProfile);
             resources.ApplyResources(this.guna2Panel1, "guna2Panel1");
             this.guna2Panel1.Name = "guna2Panel1";
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.BorderRadius = 12;
+            resources.ApplyResources(this.guna2PictureBox1, "guna2PictureBox1");
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2PictureBox1.Image = global::Eco_Net_pro.Properties.Resources.icons8_refresh;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // guna2Panel3
             // 
@@ -86,7 +103,6 @@
             resources.ApplyResources(this.guna2Button9, "guna2Button9");
             this.guna2Button9.ForeColor = System.Drawing.Color.Transparent;
             this.guna2Button9.Image = global::Eco_Net_pro.Properties.Resources.icons8_inbox_96;
-            this.guna2Button9.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button9.Name = "guna2Button9";
             this.guna2Button9.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -105,7 +121,6 @@
             resources.ApplyResources(this.btnAlert, "btnAlert");
             this.btnAlert.ForeColor = System.Drawing.Color.Transparent;
             this.btnAlert.Image = global::Eco_Net_pro.Properties.Resources.icons8_alert_96;
-            this.btnAlert.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnAlert.Name = "btnAlert";
             this.btnAlert.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -292,6 +307,24 @@
             resources.ApplyResources(this.MainformPanel, "MainformPanel");
             this.MainformPanel.Name = "MainformPanel";
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.AutoRoundedCorners = true;
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BorderColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BorderRadius = 14;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.AliceBlue;
+            resources.ApplyResources(this.guna2Button1, "guna2Button1");
+            this.guna2Button1.ForeColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // Mainform
             // 
             resources.ApplyResources(this, "$this");
@@ -304,6 +337,7 @@
             this.Name = "Mainform";
             this.Load += new System.EventHandler(this.Mainform_Load);
             this.guna2Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PositionInd)).EndInit();
             this.MainPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.boxbox)).EndInit();
@@ -340,5 +374,7 @@
         private Setting setting1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2PictureBox PositionInd;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

@@ -140,3 +140,4 @@ C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.EditFor
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.EditForms.DelAqua.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.EditForms.AddGreen.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.EditForms.DelGreen.resources
+C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Debug\Eco_Net_pro.EditForms.AddTask.resources

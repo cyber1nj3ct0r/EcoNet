@@ -690,7 +690,7 @@
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "Tool";
-            this.Size = new System.Drawing.Size(1043, 495);
+            this.Size = new System.Drawing.Size(1114, 494);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();

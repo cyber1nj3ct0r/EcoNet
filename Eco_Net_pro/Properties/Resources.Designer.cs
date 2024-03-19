@@ -246,6 +246,16 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_cloud_link_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-cloud-link-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_connection_status_on_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-connection-status-on-32", resourceCulture);
@@ -326,6 +336,16 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_double_down {
+            get {
+                object obj = ResourceManager.GetObject("icons8-double-down", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_edit_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-edit-32", resourceCulture);
@@ -369,6 +389,16 @@ namespace Eco_Net_pro.Properties {
         internal static System.Drawing.Bitmap icons8_manage_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-manage-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_refresh {
+            get {
+                object obj = ResourceManager.GetObject("icons8-refresh", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -466,6 +496,26 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_update {
+            get {
+                object obj = ResourceManager.GetObject("icons8-update", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_update__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-update (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_update_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-update-32", resourceCulture);
@@ -489,6 +539,16 @@ namespace Eco_Net_pro.Properties {
         internal static System.Drawing.Bitmap icons8_update_32__2_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-update-32 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_update_32__3_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-update-32 (3)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

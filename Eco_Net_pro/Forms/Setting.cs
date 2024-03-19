@@ -67,8 +67,37 @@ namespace Eco_Net_pro
             }
         }
 
-       
+        private async void btnaddStore_Click(object sender, EventArgs e)
+        {
+            var db = FireStoreHelp.Database;
+
+            string Aemail = guna2TextBox2.Text.Trim();
+            string phoneno = guna2TextBox5.Text.Trim();
+            string password = Security.Encrypt(guna2TextBox6.Text);
 
 
+
+            DocumentReference UserDocRef = db.Collection("UserData").Document(Aemail);
+
+            DocumentSnapshot snapshot = await UserDocRef.GetSnapshotAsync();
+
+            if (snapshot.Exists)
+            {
+                Dictionary<string, object> UpdatesItems = new Dictionary<string, object>();
+
+                UpdatesItems["Phone"] = phoneno;
+                UpdatesItems["Password"] = password;
+
+                await UserDocRef.SetAsync(UpdatesItems, SetOptions.MergeAll);
+
+                MessageBox.Show("Content information updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                
+            }
+            else
+            {
+                MessageBox.Show("Content information update Error!", "Error");
+            }
+        }
     }
 }

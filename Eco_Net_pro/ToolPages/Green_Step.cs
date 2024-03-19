@@ -39,11 +39,7 @@ namespace Eco_Net_pro
         private void Green_Step_Load(object sender, EventArgs e)
         {
             database = FireStoreHelp.Database;
-
-            
             GetAllDocuments("GreenStep");
-
-
         }
 
         async void GetAllDocuments(string nameofCollection)
@@ -67,10 +63,8 @@ namespace Eco_Net_pro
 
         private void UpdateRowCountLabel()
         {
-            // Get the row count of the DataGridView
             int rowCount = guna2DataGridView1.RowCount;
 
-            // Update the text of the label with the row count
             label8.Text = $"{rowCount}";
             label9.Text = $"{rowCount}";
         }
