@@ -47,6 +47,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -58,6 +59,7 @@
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.Controls.Add(this.btnExit);
             this.guna2Panel1.Controls.Add(this.CodeBox);
             this.guna2Panel1.Controls.Add(this.linkBackLogin);
             this.guna2Panel1.Controls.Add(this.CountryBox);
@@ -106,7 +108,7 @@
             this.linkBackLogin.AutoSize = true;
             this.linkBackLogin.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkBackLogin.LinkColor = System.Drawing.Color.MediumSeaGreen;
-            this.linkBackLogin.Location = new System.Drawing.Point(155, 507);
+            this.linkBackLogin.Location = new System.Drawing.Point(146, 497);
             this.linkBackLogin.Name = "linkBackLogin";
             this.linkBackLogin.Size = new System.Drawing.Size(126, 26);
             this.linkBackLogin.TabIndex = 13;
@@ -376,6 +378,25 @@
             this.guna2PictureBox1.TabIndex = 1;
             this.guna2PictureBox1.TabStop = false;
             // 
+            // btnExit
+            // 
+            this.btnExit.Animated = true;
+            this.btnExit.AutoRoundedCorners = true;
+            this.btnExit.BorderRadius = 9;
+            this.btnExit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExit.FillColor = System.Drawing.Color.IndianRed;
+            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnExit.ForeColor = System.Drawing.Color.White;
+            this.btnExit.Location = new System.Drawing.Point(170, 536);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(73, 21);
+            this.btnExit.TabIndex = 15;
+            this.btnExit.Text = "Exit";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -418,5 +439,6 @@
         private System.Windows.Forms.LinkLabel linkBackLogin;
         private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
         private Guna.UI2.WinForms.Guna2TextBox CodeBox;
+        private Guna.UI2.WinForms.Guna2Button btnExit;
     }
 }

@@ -59,15 +59,17 @@
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.btnaddStore = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -93,6 +95,7 @@
             // guna2Panel4
             // 
             this.guna2Panel4.BackColor = System.Drawing.Color.PaleGreen;
+            this.guna2Panel4.Controls.Add(this.guna2PictureBox3);
             this.guna2Panel4.Controls.Add(this.ToggleSwitch2);
             this.guna2Panel4.Controls.Add(this.label6);
             this.guna2Panel4.Controls.Add(this.label7);
@@ -503,8 +506,39 @@
             this.btnaddStore.TabIndex = 13;
             this.btnaddStore.Click += new System.EventHandler(this.btnaddStore_Click);
             // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox3.BorderRadius = 12;
+            this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox3.Image = global::Eco_Net_pro.Properties.Resources.icons8_verified_account;
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(10, 6);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(51, 48);
+            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox3.TabIndex = 9;
+            this.guna2PictureBox3.TabStop = false;
+            this.guna2PictureBox3.UseTransparentBackground = true;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox2.BorderRadius = 12;
+            this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox2.Image = global::Eco_Net_pro.Properties.Resources.icons8_database;
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(10, 6);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(51, 48);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox2.TabIndex = 8;
+            this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.UseTransparentBackground = true;
+            // 
             // guna2PictureBox1
             // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.BorderRadius = 12;
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = global::Eco_Net_pro.Properties.Resources.icons8_double_down;
@@ -515,19 +549,7 @@
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 7;
             this.guna2PictureBox1.TabStop = false;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.BorderRadius = 12;
-            this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox2.Image = global::Eco_Net_pro.Properties.Resources.icons8_double_down;
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(10, 6);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(51, 48);
-            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox2.TabIndex = 8;
-            this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // Setting
             // 
@@ -549,8 +571,9 @@
             this.guna2Panel2.PerformLayout();
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -591,5 +614,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
     }
 }

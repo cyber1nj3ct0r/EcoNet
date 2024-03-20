@@ -63,86 +63,6 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1201_1_ {
-            get {
-                object obj = ResourceManager.GetObject("1201(1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _14214037_5446762 {
-            get {
-                object obj = ResourceManager.GetObject("14214037_5446762", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _14214037_54467621 {
-            get {
-                object obj = ResourceManager.GetObject("14214037_54467621", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _14214037_54467622 {
-            get {
-                object obj = ResourceManager.GetObject("14214037_54467622", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _14214037_54467623 {
-            get {
-                object obj = ResourceManager.GetObject("14214037_54467623", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _79a1ab9f_c59a_4cca_9a78_9d8eedba9a5f {
-            get {
-                object obj = ResourceManager.GetObject("79a1ab9f-c59a-4cca-9a78-9d8eedba9a5f", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _79a1ab9f_c59a_4cca_9a78_9d8eedba9a5f1 {
-            get {
-                object obj = ResourceManager.GetObject("79a1ab9f-c59a-4cca-9a78-9d8eedba9a5f1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _79a1ab9f_c59a_4cca_9a78_9d8eedba9a5f2 {
-            get {
-                object obj = ResourceManager.GetObject("79a1ab9f-c59a-4cca-9a78-9d8eedba9a5f2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap carbon_footprint_monitor_green_step_sticker_2d_cute_fantasy_dreamy_vector_illustration_2d_fla_979171781 {
             get {
                 object obj = ResourceManager.GetObject("carbon-footprint-monitor-green-step-sticker-2d-cute-fantasy-dreamy-vector-illustr" +
@@ -169,16 +89,6 @@ namespace Eco_Net_pro.Properties {
             get {
                 object obj = ResourceManager.GetObject("green-community-initiatives-eco-community-chat-peoples-sticker-2d-cute-fantasy-dr" +
                         "eamy-vector-i-630365494", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_add_96__1_ {
-            get {
-                object obj = ResourceManager.GetObject("icons8-add-96 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -216,66 +126,6 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_cloud_database_32 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-cloud-database-32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_cloud_development_32 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-cloud-development-32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_cloud_development_32__1_ {
-            get {
-                object obj = ResourceManager.GetObject("icons8-cloud-development-32 (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_cloud_link_32 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-cloud-link-32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_connection_status_on_32 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-connection-status-on-32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_connection_status_on_32__1_ {
-            get {
-                object obj = ResourceManager.GetObject("icons8-connection-status-on-32 (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap icons8_dashboard_layout_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-dashboard-layout-96", resourceCulture);
@@ -286,29 +136,9 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_dashboard_layout_961 {
+        internal static System.Drawing.Bitmap icons8_database {
             get {
-                object obj = ResourceManager.GetObject("icons8-dashboard-layout-961", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_delete_32 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-delete-32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_delete_32__1_ {
-            get {
-                object obj = ResourceManager.GetObject("icons8-delete-32 (1)", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8-database", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -356,16 +186,6 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_flag_96 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-flag-96", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap icons8_flag_96__1_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-flag-96 (1)", resourceCulture);
@@ -406,49 +226,9 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_setting_32 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-setting-32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_setting_321 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-setting-321", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_setting_322 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-setting-322", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap icons8_setting_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-setting-96", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_setting_961 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-setting-961", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -476,16 +256,6 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_tools_961 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-tools-961", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap icons8_trophy_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-trophy-96", resourceCulture);
@@ -496,9 +266,9 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_update {
+        internal static System.Drawing.Bitmap icons8_username {
             get {
-                object obj = ResourceManager.GetObject("icons8-update", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8-username", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -506,69 +276,9 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icons8_update__1_ {
+        internal static System.Drawing.Bitmap icons8_verified_account {
             get {
-                object obj = ResourceManager.GetObject("icons8-update (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_update_32 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-update-32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_update_32__1_ {
-            get {
-                object obj = ResourceManager.GetObject("icons8-update-32 (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_update_32__2_ {
-            get {
-                object obj = ResourceManager.GetObject("icons8-update-32 (2)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_update_32__3_ {
-            get {
-                object obj = ResourceManager.GetObject("icons8-update-32 (3)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icons8_user_profile_96 {
-            get {
-                object obj = ResourceManager.GetObject("icons8-user-profile-96", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap lk__128247_ORH3Z2_422 {
-            get {
-                object obj = ResourceManager.GetObject("lk--128247-ORH3Z2-422", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8-verified-account", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -617,16 +327,6 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Picture3 {
-            get {
-                object obj = ResourceManager.GetObject("Picture3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap rain_forest_landscape_view_sticker_2d_cute_fantasy_dreamy_vector_illustration_2d_flat_centere_770156482 {
             get {
                 object obj = ResourceManager.GetObject("rain-forest-landscape-view-sticker-2d-cute-fantasy-dreamy-vector-illustration-2d-" +
@@ -664,16 +364,6 @@ namespace Eco_Net_pro.Properties {
             get {
                 object obj = ResourceManager.GetObject("water-conservation-protection-banner-sticker-2d-cute-fantasy-dreamy-vector-illust" +
                         "ration-2d-fla-604327964", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap WhatsApp_Image_2024_02_01_at_15_20_05_e472ad75 {
-            get {
-                object obj = ResourceManager.GetObject("WhatsApp Image 2024-02-01 at 15.20.05_e472ad75", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

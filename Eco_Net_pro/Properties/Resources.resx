@@ -118,41 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icons8-cloud-link-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-cloud-link-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="14214037_54467622" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\14214037_54467622.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1201(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1201(1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-setting-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-setting-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-connection-status-on-32 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-connection-status-on-32 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-user-profile-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-user-profile-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="sustainable-product-marketplace-marketplace-sticker-2d-cute-fantasy-dreamy-vector-illustration-866971271" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sustainable-product-marketplace-marketplace-sticker-2d-cute-fantasy-dreamy-vector-illustration-866971271.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-update" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-update.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-refresh.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-done-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-done-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="79a1ab9f-c59a-4cca-9a78-9d8eedba9a5f1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\79a1ab9f-c59a-4cca-9a78-9d8eedba9a5f1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icons8-task-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-task-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-update-32 (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-update-32 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-username" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-username.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rain-forest-landscape-view-sticker-2d-cute-fantasy-dreamy-vector-illustration-2d-flat-centere-770156482" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rain-forest-landscape-view-sticker-2d-cute-fantasy-dreamy-vector-illustration-2d-flat-centere-770156482.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,62 +139,26 @@
   <data name="icons8-analysis-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-analysis-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="WhatsApp Image 2024-02-01 at 15.20.05_e472ad75" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WhatsApp Image 2024-02-01 at 15.20.05_e472ad75.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-delete-321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-delete-321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="students-engage-in-ecological-education-to-deepen-their-understanding-of-environmental-principles-f-210049759" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\students-engage-in-ecological-education-to-deepen-their-understanding-of-environmental-principles-f-210049759.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-flag-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-flag-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-double-down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-double-down.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="crop-cultivation-and-methodologies-growing-crops--sticker-2d-cute-fantasy-dreamy-vector-illust-704685429" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\crop-cultivation-and-methodologies-growing-crops--sticker-2d-cute-fantasy-dreamy-vector-illust-704685429.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-cloud-database-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-cloud-database-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="carbon-footprint-monitor-green-step-sticker-2d-cute-fantasy-dreamy-vector-illustration-2d-fla-979171781" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\carbon-footprint-monitor-green-step-sticker-2d-cute-fantasy-dreamy-vector-illustration-2d-fla-979171781.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-add-96 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-add-96 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="79a1ab9f-c59a-4cca-9a78-9d8eedba9a5f2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\79a1ab9f-c59a-4cca-9a78-9d8eedba9a5f2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="14214037_54467623" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\14214037_54467623.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mobile-game-play-banner-sticker-2d-cute-fantasy-dreamy-vector-illustration-2d-flat-centered--604327964" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mobile-game-play-banner-sticker-2d-cute-fantasy-dreamy-vector-illustration-2d-flat-centered--604327964.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-tools-961" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-tools-961.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-setting-321" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-setting-321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icons8-manage-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-manage-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-update (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-update (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-update-32 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-update-32 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-setting-322" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-setting-322.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icons8-edit-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-edit-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-alert-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-alert-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-refresh.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-tools-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-tools-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,26 +175,14 @@
   <data name="green-community-initiatives-eco-community-chat-peoples-sticker-2d-cute-fantasy-dreamy-vector-i-630365494" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\green-community-initiatives-eco-community-chat-peoples-sticker-2d-cute-fantasy-dreamy-vector-i-630365494.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-update-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-update-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lv_0_20240228094445" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lv_0_20240228094445.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Picture2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Picture2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-delete-32 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-delete-32 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-delete-321" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-delete-321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lk--128247-ORH3Z2-422" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lk--128247-ORH3Z2-422.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="students-engage-in-ecological-education-to-deepen-their-understanding-of-environmental-principles-f-210049759" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\students-engage-in-ecological-education-to-deepen-their-understanding-of-environmental-principles-f-210049759.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-inbox-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-inbox-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\icons8-inbox-961.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-dashboard-layout-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-dashboard-layout-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,46 +190,22 @@
   <data name="icons8-trophy-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-trophy-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-update-32 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-update-32 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icons8-badge-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-badge-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="14214037_5446762" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\14214037_5446762.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lv_0_20240228094445" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lv_0_20240228094445.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-setting-961" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-setting-961.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-cloud-development-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-cloud-development-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-connection-status-on-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-connection-status-on-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="79a1ab9f-c59a-4cca-9a78-9d8eedba9a5f" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\79a1ab9f-c59a-4cca-9a78-9d8eedba9a5f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-database.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-flag-96 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-flag-96 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-cloud-development-32 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-cloud-development-32 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-alert-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-alert-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="14214037_54467621" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\14214037_54467621.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-dashboard-layout-961" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-dashboard-layout-961.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-delete-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-delete-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Picture3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Picture3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-double-down" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-double-down.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-verified-account" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-verified-account.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -250,5 +250,9 @@ namespace Eco_Net_pro
             return System.Text.RegularExpressions.Regex.IsMatch(country, @"^[a-zA-Z ]+$");
         }
 
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

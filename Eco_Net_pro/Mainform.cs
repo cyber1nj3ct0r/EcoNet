@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices.Expando;
@@ -49,7 +50,7 @@ namespace Eco_Net_pro
             dash.Dock = DockStyle.Fill;
             this.Controls.Add(dash);
             dash.BringToFront();
-            PositionInd.Location = new Point(0, 15);
+            PositionInd.Location = new Point(0, 86);
         }
 
         private void btnDash_Click(object sender, EventArgs e)
@@ -154,7 +155,16 @@ namespace Eco_Net_pro
             setting.BringToFront();
         }
 
-        private void btnProfile_Click(object sender, EventArgs e)
+        
+
+        private void btnRefreshPictureBox_Click(object sender, EventArgs e)
+        {
+            string exePath = Application.ExecutablePath;
+            Process.Start(exePath);
+            Application.Exit();
+        }
+
+        private void btnProfilePictureBox_Click(object sender, EventArgs e)
         {
             dash.Hide();
             tool.Hide();
@@ -167,8 +177,5 @@ namespace Eco_Net_pro
             this.Controls.Add(setting);
             setting.BringToFront();
         }
-       
-
-        
     }
 }

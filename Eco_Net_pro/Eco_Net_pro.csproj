@@ -573,16 +573,6 @@
     <None Include="protos\google\type\postal_address.proto" />
     <None Include="protos\google\type\quaternion.proto" />
     <None Include="protos\google\type\timeofday.proto" />
-    <None Include="Resources\79a1ab9f-c59a-4cca-9a78-9d8eedba9a5f.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\WhatsApp Image 2024-02-01 at 15.20.05_e472ad75.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-user-profile-96.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-alert-96.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-inbox-96.png" />
@@ -591,31 +581,10 @@
     <None Include="Resources\icons8-dashboard-layout-96.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1201%281%29.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-setting-96.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-tools-96.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-setting-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-setting-321.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-setting-961.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\79a1ab9f-c59a-4cca-9a78-9d8eedba9a5f1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-dashboard-layout-961.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-tools-961.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-task-96.png" />
@@ -625,9 +594,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-manage-96.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\79a1ab9f-c59a-4cca-9a78-9d8eedba9a5f2.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\carbon-footprint-monitor-green-step-sticker-2d-cute-fantasy-dreamy-vector-illustration-2d-fla-979171781.png" />
@@ -654,9 +620,6 @@
     <None Include="Resources\rain-forest-landscape-view-sticker-2d-cute-fantasy-dreamy-vector-illustration-2d-flat-centere-770156482.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icons8-flag-96.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-flag-96 %281%29.png" />
   </ItemGroup>
   <ItemGroup>
@@ -666,34 +629,7 @@
     <None Include="Resources\icons8-badge-96.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icons8-add-96 %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-delete-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-setting-322.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\lv_0_20240228094445.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\14214037_5446762.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\14214037_54467621.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\14214037_54467622.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\14214037_54467623.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lk--128247-ORH3Z2-422.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Picture3.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Picture1.png" />
@@ -711,46 +647,25 @@
     <None Include="Resources\icons8-done-32.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icons8-update-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-update-32 %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-update-32 %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-cloud-database-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-connection-status-on-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-connection-status-on-32 %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-cloud-development-32.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-cloud-development-32 %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-update-32 %283%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-cloud-link-32.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-refresh.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icons8-update.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-update %281%29.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-double-down.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-username.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-alert-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-inbox-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-database.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-verified-account.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />

@@ -115,5 +115,9 @@ namespace Eco_Net_pro
             UserData.LoggedInEmail = userEmail;
         }
 
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
