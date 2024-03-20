@@ -37,7 +37,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.btnAddContent = new Guna.UI2.WinForms.Guna2Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,6 +46,7 @@
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnAddContent = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -116,6 +116,7 @@
             dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.guna2DataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle7;
             this.guna2DataGridView1.Size = new System.Drawing.Size(1033, 345);
+            this.guna2DataGridView1.StandardTab = true;
             this.guna2DataGridView1.TabIndex = 21;
             this.guna2DataGridView1.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.GreenSea;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(226)))), ((int)(((byte)(218)))));
@@ -140,25 +141,6 @@
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(191)))), ((int)(((byte)(173)))));
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.guna2DataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellDoubleClick);
-            // 
-            // btnAddContent
-            // 
-            this.btnAddContent.Animated = true;
-            this.btnAddContent.AutoRoundedCorners = true;
-            this.btnAddContent.BorderRadius = 14;
-            this.btnAddContent.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnAddContent.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnAddContent.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnAddContent.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAddContent.FillColor = System.Drawing.Color.DarkCyan;
-            this.btnAddContent.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnAddContent.ForeColor = System.Drawing.Color.White;
-            this.btnAddContent.Location = new System.Drawing.Point(968, 55);
-            this.btnAddContent.Name = "btnAddContent";
-            this.btnAddContent.Size = new System.Drawing.Size(100, 30);
-            this.btnAddContent.TabIndex = 20;
-            this.btnAddContent.Text = "New Task";
-            this.btnAddContent.Click += new System.EventHandler(this.btnAddContent_Click);
             // 
             // Column1
             // 
@@ -238,6 +220,25 @@
             this.Column5.ReadOnly = true;
             this.Column5.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.Column5.Width = 200;
+            // 
+            // btnAddContent
+            // 
+            this.btnAddContent.Animated = true;
+            this.btnAddContent.AutoRoundedCorners = true;
+            this.btnAddContent.BorderRadius = 14;
+            this.btnAddContent.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddContent.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAddContent.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAddContent.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAddContent.FillColor = System.Drawing.Color.DarkCyan;
+            this.btnAddContent.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnAddContent.ForeColor = System.Drawing.Color.White;
+            this.btnAddContent.Location = new System.Drawing.Point(968, 55);
+            this.btnAddContent.Name = "btnAddContent";
+            this.btnAddContent.Size = new System.Drawing.Size(100, 30);
+            this.btnAddContent.TabIndex = 20;
+            this.btnAddContent.Text = "New Task";
+            this.btnAddContent.Click += new System.EventHandler(this.btnAddContent_Click);
             // 
             // Task
             // 

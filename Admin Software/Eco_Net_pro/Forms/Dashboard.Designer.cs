@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.TextBox_Dash = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,12 +43,17 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
+            this.guna2Panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -61,10 +65,6 @@
             this.label1.Size = new System.Drawing.Size(119, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "Dashboard";
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // TextBox_Dash
             // 
@@ -83,7 +83,7 @@
             this.TextBox_Dash.PasswordChar = '\0';
             this.TextBox_Dash.PlaceholderText = "Search..";
             this.TextBox_Dash.SelectedText = "";
-            this.TextBox_Dash.Size = new System.Drawing.Size(590, 36);
+            this.TextBox_Dash.Size = new System.Drawing.Size(530, 36);
             this.TextBox_Dash.TabIndex = 1;
             // 
             // guna2Panel1
@@ -98,12 +98,13 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(152, 67);
             this.guna2Panel1.TabIndex = 2;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2Panel1, "Today working hours");
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(86, 29);
+            this.label3.Location = new System.Drawing.Point(77, 29);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 21);
             this.label3.TabIndex = 8;
@@ -115,9 +116,9 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(76, 16);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 13);
+            this.label2.Size = new System.Drawing.Size(60, 13);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Day Streak";
+            this.label2.Text = "Day Spent";
             // 
             // guna2PictureBox1
             // 
@@ -145,14 +146,15 @@
             this.guna2Panel2.FillColor = System.Drawing.Color.AliceBlue;
             this.guna2Panel2.Location = new System.Drawing.Point(231, 128);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(152, 67);
+            this.guna2Panel2.Size = new System.Drawing.Size(161, 67);
             this.guna2Panel2.TabIndex = 3;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2Panel2, "Total task completed");
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(86, 29);
+            this.label4.Location = new System.Drawing.Point(75, 29);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(39, 21);
             this.label4.TabIndex = 8;
@@ -192,10 +194,11 @@
             this.guna2Panel3.Controls.Add(this.label7);
             this.guna2Panel3.Controls.Add(this.guna2PictureBox3);
             this.guna2Panel3.FillColor = System.Drawing.Color.AliceBlue;
-            this.guna2Panel3.Location = new System.Drawing.Point(413, 128);
+            this.guna2Panel3.Location = new System.Drawing.Point(428, 128);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(152, 67);
             this.guna2Panel3.TabIndex = 4;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2Panel3, "Experience Level");
             // 
             // label6
             // 
@@ -233,10 +236,40 @@
             this.guna2PictureBox3.TabIndex = 6;
             this.guna2PictureBox3.TabStop = false;
             // 
+            // guna2HtmlToolTip1
+            // 
+            this.guna2HtmlToolTip1.AllowLinksHandling = true;
+            this.guna2HtmlToolTip1.MaximumSize = new System.Drawing.Size(0, 0);
+            this.guna2HtmlToolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.guna2HtmlToolTip1.ToolTipTitle = "Tips";
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel4.BorderRadius = 12;
+            this.guna2Panel4.Controls.Add(this.label8);
+            this.guna2Panel4.FillColor = System.Drawing.Color.AliceBlue;
+            this.guna2Panel4.Location = new System.Drawing.Point(919, 18);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Size = new System.Drawing.Size(174, 47);
+            this.guna2Panel4.TabIndex = 9;
+            this.guna2HtmlToolTip1.SetToolTip(this.guna2Panel4, "Clock");
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(30, 7);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(112, 32);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "00:00:00";
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.guna2Panel4);
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
@@ -244,6 +277,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Dashboard";
             this.Size = new System.Drawing.Size(1114, 494);
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
@@ -253,6 +287,8 @@
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
+            this.guna2Panel4.ResumeLayout(false);
+            this.guna2Panel4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -261,7 +297,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Timer timer1;
         private Guna.UI2.WinForms.Guna2TextBox TextBox_Dash;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
@@ -275,5 +310,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
+        private Guna.UI2.WinForms.Guna2HtmlToolTip guna2HtmlToolTip1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Timer timer1;
     }
 }

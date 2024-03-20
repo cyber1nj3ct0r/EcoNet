@@ -20,7 +20,7 @@ namespace Eco_Net_pro
         public class GreenstepClass
         {
             [FirestoreProperty]
-            public string Name { get; set; }
+            public string Email { get; set; }
             [FirestoreProperty]
             public DateTime Sdate { get; internal set; }
             [FirestoreProperty]
@@ -53,7 +53,7 @@ namespace Eco_Net_pro
                 {
                     GreenstepClass greenstepclass = documentSnapshot.ConvertTo<GreenstepClass>();
 
-                    guna2DataGridView1.Rows.Add(documentSnapshot.Id, greenstepclass.Name, greenstepclass.Sdate, greenstepclass.Edate, greenstepclass.Rank);
+                    guna2DataGridView1.Rows.Add(documentSnapshot.Id, greenstepclass.Email, greenstepclass.Sdate, greenstepclass.Edate, greenstepclass.Rank);
 
                 }
             }

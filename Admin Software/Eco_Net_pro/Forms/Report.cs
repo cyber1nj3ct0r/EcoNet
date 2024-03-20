@@ -160,36 +160,47 @@ namespace Eco_Net_pro
             return (monthName, weekOfMonth);
         }
 
+
+        private void btnExportData_Click(object sender, EventArgs e)
+        {
+            ExportToExcel();
+        }
+
+
         private async void ExportToExcel()
         {
-            // Create a new Excel workbook
             var workbook = new XLWorkbook();
             var worksheet = workbook.Worksheets.Add("WeeklyCounts");
 
-            // Add column headers
             worksheet.Cell(1, 1).Value = "Week";
-            worksheet.Cell(1, 2).Value = "Counts";
+            int column = 2; 
+            foreach (var countField in GetCountFields())
+            {
+                worksheet.Cell(1, column).Value = countField;
+                column++;
+            }
 
-            // Get the data from Firestore
             CollectionReference weeklyCountsRef = database.Collection("WeeklyCounts");
             QuerySnapshot snapshot = await weeklyCountsRef.GetSnapshotAsync();
 
-            // Add data to the Excel sheet
-            int row = 2; // Start from the second row
+            int row = 2; 
             foreach (DocumentSnapshot document in snapshot.Documents)
             {
-                // Extract data from the document
                 int week = document.GetValue<int>("Week");
                 Dictionary<string, object> counts = document.GetValue<Dictionary<string, object>>("Counts");
 
-                // Add data to Excel sheet
                 worksheet.Cell(row, 1).Value = $"Week {week}";
-                worksheet.Cell(row, 2).Value = counts.ToString(); // You may need to format this according to your requirement
+
+                foreach (var countField in GetCountFields())
+                {
+                    int fieldValue = counts.ContainsKey(countField) ? Convert.ToInt32(counts[countField]) : 0;
+                    worksheet.Cell(row, column).Value = fieldValue;
+                    column++;
+                }
 
                 row++;
             }
 
-            // Save the Excel workbook
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
             saveFileDialog.FileName = "WeeklyCounts.xlsx";
@@ -197,14 +208,11 @@ namespace Eco_Net_pro
             {
                 workbook.SaveAs(saveFileDialog.FileName);
             }
-        
-    }
-
-        private void btnExportData_Click(object sender, EventArgs e)
-        {
-            ExportToExcel();
         }
 
-        
+        private IEnumerable<string> GetCountFields()
+        {
+            return new string[] { "Aqua", "Community", "Education", "GreenScape", "GreenStep", "GrowPlant", "Herbs", "OnlineStores", "Vegetables" };
+        }
     }
 }
