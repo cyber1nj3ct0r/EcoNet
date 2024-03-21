@@ -37,3 +37,14 @@ agriculture and daily life.
 <div align="center">
 <img align="center" height="180em" src="https://raw.githubusercontent.com/cyber1nj3ct0r/EcoNet/main/assets/79a1ab.ico" alt=ishararaviget9 />
 </div>
+
+
+# Happy to say
+
+![License](https://img.shields.io/badge/pre-green)
+![License](https://img.shields.io/badge/Explore-released-blue)
+![Licens](https://img.shields.io/badge/confirmed%20the%20team-8A2BE2)
+
+
+Admin software pre released [Download](https://)
+
