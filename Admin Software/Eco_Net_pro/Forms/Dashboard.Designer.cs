@@ -81,7 +81,7 @@
             this.TextBox_Dash.Location = new System.Drawing.Point(50, 63);
             this.TextBox_Dash.Name = "TextBox_Dash";
             this.TextBox_Dash.PasswordChar = '\0';
-            this.TextBox_Dash.PlaceholderText = "Search..";
+            this.TextBox_Dash.PlaceholderText = "Note";
             this.TextBox_Dash.SelectedText = "";
             this.TextBox_Dash.Size = new System.Drawing.Size(530, 36);
             this.TextBox_Dash.TabIndex = 1;
@@ -249,7 +249,7 @@
             this.guna2Panel4.BorderRadius = 12;
             this.guna2Panel4.Controls.Add(this.label8);
             this.guna2Panel4.FillColor = System.Drawing.Color.AliceBlue;
-            this.guna2Panel4.Location = new System.Drawing.Point(919, 18);
+            this.guna2Panel4.Location = new System.Drawing.Point(1009, 18);
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.Size = new System.Drawing.Size(174, 47);
             this.guna2Panel4.TabIndex = 9;
@@ -276,7 +276,7 @@
             this.Controls.Add(this.TextBox_Dash);
             this.Controls.Add(this.label1);
             this.Name = "Dashboard";
-            this.Size = new System.Drawing.Size(1114, 494);
+            this.Size = new System.Drawing.Size(1205, 612);
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();

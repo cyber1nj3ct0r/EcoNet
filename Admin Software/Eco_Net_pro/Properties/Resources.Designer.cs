@@ -116,6 +116,16 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_add_to_collection_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-add-to-collection-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_alert_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-alert-96", resourceCulture);
@@ -249,6 +259,16 @@ namespace Eco_Net_pro.Properties {
         internal static System.Drawing.Bitmap icons8_setting_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-setting-96", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_store_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-store-32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

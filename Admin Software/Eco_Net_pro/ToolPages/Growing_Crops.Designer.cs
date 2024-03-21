@@ -166,7 +166,7 @@
             this.btnAddVegetable.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.btnAddVegetable.RowHeadersVisible = false;
             this.btnAddVegetable.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.btnAddVegetable.Size = new System.Drawing.Size(984, 286);
+            this.btnAddVegetable.Size = new System.Drawing.Size(1126, 286);
             this.btnAddVegetable.TabIndex = 30;
             this.btnAddVegetable.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.GreenSea;
             this.btnAddVegetable.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(226)))), ((int)(((byte)(218)))));
@@ -267,7 +267,7 @@
             this.guna2DataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.guna2DataGridView2.RowHeadersVisible = false;
             this.guna2DataGridView2.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.guna2DataGridView2.Size = new System.Drawing.Size(984, 286);
+            this.guna2DataGridView2.Size = new System.Drawing.Size(1126, 286);
             this.guna2DataGridView2.TabIndex = 31;
             this.guna2DataGridView2.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.GreenSea;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(226)))), ((int)(((byte)(218)))));
@@ -368,7 +368,7 @@
             this.guna2DataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.guna2DataGridView3.RowHeadersVisible = false;
             this.guna2DataGridView3.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.guna2DataGridView3.Size = new System.Drawing.Size(984, 286);
+            this.guna2DataGridView3.Size = new System.Drawing.Size(1126, 286);
             this.guna2DataGridView3.TabIndex = 32;
             this.guna2DataGridView3.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.GreenSea;
             this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(226)))), ((int)(((byte)(218)))));
@@ -438,7 +438,7 @@
             this.btnAddHerbs.ForeColor = System.Drawing.Color.White;
             this.btnAddHerbs.Image = global::Eco_Net_pro.Properties.Resources.icons8_add_32__2_;
             this.btnAddHerbs.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnAddHerbs.Location = new System.Drawing.Point(979, 901);
+            this.btnAddHerbs.Location = new System.Drawing.Point(1121, 901);
             this.btnAddHerbs.Name = "btnAddHerbs";
             this.btnAddHerbs.Size = new System.Drawing.Size(40, 40);
             this.btnAddHerbs.TabIndex = 28;
@@ -458,7 +458,7 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Image = global::Eco_Net_pro.Properties.Resources.icons8_add_32__2_;
             this.guna2Button1.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button1.Location = new System.Drawing.Point(979, 491);
+            this.guna2Button1.Location = new System.Drawing.Point(1121, 491);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(40, 40);
             this.guna2Button1.TabIndex = 27;
@@ -478,7 +478,7 @@
             this.btnAddFeature.ForeColor = System.Drawing.Color.White;
             this.btnAddFeature.Image = global::Eco_Net_pro.Properties.Resources.icons8_add_32__2_;
             this.btnAddFeature.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnAddFeature.Location = new System.Drawing.Point(979, 94);
+            this.btnAddFeature.Location = new System.Drawing.Point(1121, 94);
             this.btnAddFeature.Name = "btnAddFeature";
             this.btnAddFeature.Size = new System.Drawing.Size(40, 40);
             this.btnAddFeature.TabIndex = 26;
@@ -501,7 +501,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label17);
             this.Name = "Growing_Crops";
-            this.Size = new System.Drawing.Size(1114, 1293);
+            this.Size = new System.Drawing.Size(1205, 612);
             this.Load += new System.EventHandler(this.Growing_Crops_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnAddVegetable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();

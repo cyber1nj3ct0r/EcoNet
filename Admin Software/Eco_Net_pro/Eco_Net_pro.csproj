@@ -246,6 +246,12 @@
     <Compile Include="Classes\FireStoreHelp.cs" />
     <Compile Include="Classes\Security.cs" />
     <Compile Include="Classes\UserData.cs" />
+    <Compile Include="EditForms\AddStoreItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\AddStoreItems.Designer.cs">
+      <DependentUpon>AddStoreItems.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditForms\AddTask.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -463,6 +469,9 @@
     <Compile Include="Forms\Tool.Designer.cs">
       <DependentUpon>Tool.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="EditForms\AddStoreItems.resx">
+      <DependentUpon>AddStoreItems.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditForms\AddTask.resx">
       <DependentUpon>AddTask.cs</DependentUpon>
     </EmbeddedResource>
@@ -744,6 +753,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-add-32 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-to-collection-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-store-32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />

@@ -32,6 +32,8 @@ namespace Eco_Net_pro
             public string Price { get; set; }
             [FirestoreProperty]
             public string ItemsAbout { get; set; }
+            [FirestoreProperty]
+            public string ImageLink { get; set; }
         }
 
 
@@ -67,7 +69,7 @@ namespace Eco_Net_pro
                     string marketAbout = marketClass.About;
                     DateTime marketStartDate = marketClass.StartDate;
 
-                    guna2DataGridView1.Rows.Add(documentId, marketName, marketAbout, marketStartDate, "", "", "", "");
+                    guna2DataGridView1.Rows.Add(documentId, marketName, marketAbout, marketStartDate, "", "", "", "", "");
 
                     CollectionReference DocRef02 = database.Collection("OnlineStores").Document(documentId).Collection("Items");
 
@@ -83,9 +85,10 @@ namespace Eco_Net_pro
                             string itemsName = itemsClass.Name;
                             string itemsAbout = itemsClass.ItemsAbout;
                             string itemsPrice = itemsClass.Price;
+                            string itemsimg = itemsClass.ImageLink;
 
 
-                            guna2DataGridView1.Rows.Add(documentId, "","", "", itemID, itemsName, itemsAbout, itemsPrice);
+                            guna2DataGridView1.Rows.Add("", "","", "", itemID, itemsName, itemsAbout, itemsPrice, itemsimg);
                         }
                     }
                 }
@@ -101,6 +104,7 @@ namespace Eco_Net_pro
             f2edit.TextBox5.Text = this.guna2DataGridView1.CurrentRow.Cells[5].Value.ToString();
             f2edit.TextBox6.Text = this.guna2DataGridView1.CurrentRow.Cells[6].Value.ToString();
             f2edit.TextBox7.Text = this.guna2DataGridView1.CurrentRow.Cells[7].Value.ToString();
+            f2edit.TextBox8.Text = this.guna2DataGridView1.CurrentRow.Cells[8].Value.ToString();
 
             if (string.IsNullOrEmpty(this.guna2DataGridView1.CurrentRow.Cells[1].Value.ToString()))
             {
@@ -119,6 +123,12 @@ namespace Eco_Net_pro
         private void btnAddStores_Click_1(object sender, EventArgs e)
         {
             EditForms.Addstore faddstore = new EditForms.Addstore();
+            faddstore.ShowDialog();
+        }
+
+        private void btnItemsAdd_Click(object sender, EventArgs e)
+        {
+            EditForms.AddStoreItems faddstore = new EditForms.AddStoreItems();
             faddstore.ShowDialog();
         }
     }

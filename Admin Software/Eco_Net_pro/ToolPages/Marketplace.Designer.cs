@@ -42,7 +42,9 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnItemsAdd = new Guna.UI2.WinForms.Guna2Button();
             this.btnAddStores = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -84,7 +86,8 @@
             this.Column5,
             this.Column3,
             this.Column8,
-            this.Column7});
+            this.Column7,
+            this.Column9});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -107,7 +110,7 @@
             this.guna2DataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1021, 318);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(1141, 457);
             this.guna2DataGridView1.TabIndex = 19;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -205,6 +208,14 @@
             this.Column7.ReadOnly = true;
             this.Column7.Width = 136;
             // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "Image Link";
+            this.Column9.MinimumWidth = 250;
+            this.Column9.Name = "Column9";
+            this.Column9.ReadOnly = true;
+            this.Column9.Width = 250;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -216,11 +227,29 @@
             this.label1.TabIndex = 20;
             this.label1.Text = "If you want to EDIT or DELETE items, double-click the required row";
             // 
+            // btnItemsAdd
+            // 
+            this.btnItemsAdd.Animated = true;
+            this.btnItemsAdd.BorderRadius = 4;
+            this.btnItemsAdd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnItemsAdd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnItemsAdd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnItemsAdd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnItemsAdd.FillColor = System.Drawing.Color.Transparent;
+            this.btnItemsAdd.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnItemsAdd.ForeColor = System.Drawing.Color.White;
+            this.btnItemsAdd.Image = global::Eco_Net_pro.Properties.Resources.icons8_add_to_collection_32;
+            this.btnItemsAdd.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnItemsAdd.Location = new System.Drawing.Point(1130, 99);
+            this.btnItemsAdd.Name = "btnItemsAdd";
+            this.btnItemsAdd.Size = new System.Drawing.Size(40, 40);
+            this.btnItemsAdd.TabIndex = 28;
+            this.btnItemsAdd.Click += new System.EventHandler(this.btnItemsAdd_Click);
+            // 
             // btnAddStores
             // 
             this.btnAddStores.Animated = true;
-            this.btnAddStores.AutoRoundedCorners = true;
-            this.btnAddStores.BorderRadius = 19;
+            this.btnAddStores.BorderRadius = 4;
             this.btnAddStores.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnAddStores.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnAddStores.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -228,9 +257,9 @@
             this.btnAddStores.FillColor = System.Drawing.Color.Transparent;
             this.btnAddStores.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnAddStores.ForeColor = System.Drawing.Color.White;
-            this.btnAddStores.Image = global::Eco_Net_pro.Properties.Resources.icons8_add_32__2_;
+            this.btnAddStores.Image = global::Eco_Net_pro.Properties.Resources.icons8_store_32;
             this.btnAddStores.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnAddStores.Location = new System.Drawing.Point(1016, 100);
+            this.btnAddStores.Location = new System.Drawing.Point(1084, 99);
             this.btnAddStores.Name = "btnAddStores";
             this.btnAddStores.Size = new System.Drawing.Size(40, 40);
             this.btnAddStores.TabIndex = 27;
@@ -240,13 +269,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnItemsAdd);
             this.Controls.Add(this.btnAddStores);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2DataGridView1);
             this.Controls.Add(this.label17);
             this.Location = new System.Drawing.Point(80, 67);
             this.Name = "btnAddStore";
-            this.Size = new System.Drawing.Size(1114, 494);
+            this.Size = new System.Drawing.Size(1205, 612);
             this.Load += new System.EventHandler(this.Marketplace_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -258,6 +288,7 @@
         private System.Windows.Forms.Label label17;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
         private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2Button btnAddStores;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
@@ -266,6 +297,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private Guna.UI2.WinForms.Guna2Button btnAddStores;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private Guna.UI2.WinForms.Guna2Button btnItemsAdd;
     }
 }

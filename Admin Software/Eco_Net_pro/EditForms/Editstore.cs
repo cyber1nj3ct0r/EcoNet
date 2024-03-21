@@ -27,7 +27,9 @@ namespace Eco_Net_pro.EditForms
             string itemid = TextBox4.Text.Trim();
             string itemname = TextBox5.Text.Trim();
             string itemabout = TextBox6.Text.Trim(); 
-            string itemprice = TextBox7.Text.Trim(); 
+            string itemprice = TextBox7.Text.Trim();
+            string itemsimg = TextBox8.Text.Trim();
+            
 
             if (!IsValidStoreID(id))
             {
@@ -58,6 +60,7 @@ namespace Eco_Net_pro.EditForms
                 UpdatesItems["Name"] = itemname;
                 UpdatesItems["ItemsAbout"] = itemabout;
                 UpdatesItems["Price"] = itemprice;
+                UpdatesItems["ImageLink"] = itemsimg;
 
                 CollectionReference itemsCollectionRef = OnlinestoreRef.Collection("Items");
                 DocumentReference subDocRef = itemsCollectionRef.Document(itemid);

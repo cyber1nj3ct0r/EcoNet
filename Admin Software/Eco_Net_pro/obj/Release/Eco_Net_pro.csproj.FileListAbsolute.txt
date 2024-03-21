@@ -154,3 +154,4 @@ C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\ExcelNumberFormat
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\ClosedXML.xml
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\DocumentFormat.OpenXml.xml
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\ExcelNumberFormat.xml
+C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.AddStoreItems.resources

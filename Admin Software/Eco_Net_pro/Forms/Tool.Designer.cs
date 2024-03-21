@@ -388,7 +388,7 @@
             this.guna2Panel7.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel7.FillColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Panel7.ForeColor = System.Drawing.Color.Black;
-            this.guna2Panel7.Location = new System.Drawing.Point(801, 119);
+            this.guna2Panel7.Location = new System.Drawing.Point(212, 443);
             this.guna2Panel7.Name = "guna2Panel7";
             this.guna2Panel7.Size = new System.Drawing.Size(190, 300);
             this.guna2Panel7.TabIndex = 8;
@@ -460,7 +460,7 @@
             this.guna2Panel8.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel8.FillColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Panel8.ForeColor = System.Drawing.Color.Black;
-            this.guna2Panel8.Location = new System.Drawing.Point(16, 443);
+            this.guna2Panel8.Location = new System.Drawing.Point(801, 443);
             this.guna2Panel8.Name = "guna2Panel8";
             this.guna2Panel8.Size = new System.Drawing.Size(190, 300);
             this.guna2Panel8.TabIndex = 9;
@@ -532,7 +532,7 @@
             this.guna2Panel5.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel5.FillColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Panel5.ForeColor = System.Drawing.Color.Black;
-            this.guna2Panel5.Location = new System.Drawing.Point(212, 443);
+            this.guna2Panel5.Location = new System.Drawing.Point(409, 443);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.Size = new System.Drawing.Size(190, 300);
             this.guna2Panel5.TabIndex = 10;
@@ -604,7 +604,7 @@
             this.guna2Panel6.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2Panel6.FillColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Panel6.ForeColor = System.Drawing.Color.Black;
-            this.guna2Panel6.Location = new System.Drawing.Point(409, 443);
+            this.guna2Panel6.Location = new System.Drawing.Point(605, 443);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.Size = new System.Drawing.Size(190, 300);
             this.guna2Panel6.TabIndex = 11;
@@ -690,7 +690,7 @@
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "Tool";
-            this.Size = new System.Drawing.Size(1114, 494);
+            this.Size = new System.Drawing.Size(1188, 612);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();

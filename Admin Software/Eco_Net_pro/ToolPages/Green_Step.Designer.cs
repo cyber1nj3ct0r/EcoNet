@@ -206,7 +206,7 @@
             this.guna2DataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1021, 261);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(1104, 380);
             this.guna2DataGridView1.TabIndex = 20;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -290,7 +290,7 @@
             this.Controls.Add(this.guna2Panel1);
             this.Location = new System.Drawing.Point(100, 100);
             this.Name = "Green_Step";
-            this.Size = new System.Drawing.Size(1114, 494);
+            this.Size = new System.Drawing.Size(1205, 612);
             this.Load += new System.EventHandler(this.Green_Step_Load);
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();

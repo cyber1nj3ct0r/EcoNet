@@ -43,11 +43,15 @@
             this.btnItemDelete = new Guna.UI2.WinForms.Guna2CircleButton();
             this.btneditStoreDone = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label5 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.Controls.Add(this.label1);
+            this.guna2Panel1.Controls.Add(this.TextBox8);
             this.guna2Panel1.Controls.Add(this.TextBox6);
             this.guna2Panel1.Controls.Add(this.label6);
             this.guna2Panel1.Controls.Add(this.label7);
@@ -60,7 +64,7 @@
             this.guna2Panel1.Controls.Add(this.label2);
             this.guna2Panel1.Location = new System.Drawing.Point(12, 60);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(451, 317);
+            this.guna2Panel1.Size = new System.Drawing.Size(451, 454);
             this.guna2Panel1.TabIndex = 13;
             // 
             // TextBox6
@@ -267,11 +271,43 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Edit Content";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 316);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(76, 17);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Image Links";
+            // 
+            // TextBox8
+            // 
+            this.TextBox8.Animated = true;
+            this.TextBox8.BorderRadius = 12;
+            this.TextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TextBox8.DefaultText = "";
+            this.TextBox8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TextBox8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TextBox8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextBox8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TextBox8.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextBox8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.TextBox8.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TextBox8.Location = new System.Drawing.Point(96, 307);
+            this.TextBox8.Multiline = true;
+            this.TextBox8.Name = "TextBox8";
+            this.TextBox8.PasswordChar = '\0';
+            this.TextBox8.PlaceholderText = "";
+            this.TextBox8.SelectedText = "";
+            this.TextBox8.Size = new System.Drawing.Size(344, 132);
+            this.TextBox8.TabIndex = 23;
+            // 
             // Editstore
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(464, 376);
+            this.ClientSize = new System.Drawing.Size(464, 518);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.btnItemDelete);
             this.Controls.Add(this.btneditStoreDone);
@@ -303,5 +339,7 @@
         private Guna.UI2.WinForms.Guna2CircleButton btnItemDelete;
         private Guna.UI2.WinForms.Guna2CircleButton btneditStoreDone;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label1;
+        public Guna.UI2.WinForms.Guna2TextBox TextBox8;
     }
 }

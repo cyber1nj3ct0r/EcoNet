@@ -76,7 +76,7 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(509, 104);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(619, 104);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(86, 23);
             this.guna2HtmlLabel2.TabIndex = 23;
@@ -126,7 +126,7 @@
             this.guna2DataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(404, 345);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(483, 345);
             this.guna2DataGridView1.TabIndex = 31;
             this.guna2DataGridView1.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.GreenSea;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(226)))), ((int)(((byte)(218)))));
@@ -202,7 +202,7 @@
             dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle7;
             this.guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(224)))), ((int)(((byte)(216)))));
-            this.guna2DataGridView2.Location = new System.Drawing.Point(509, 136);
+            this.guna2DataGridView2.Location = new System.Drawing.Point(619, 136);
             this.guna2DataGridView2.Name = "guna2DataGridView2";
             this.guna2DataGridView2.ReadOnly = true;
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -215,7 +215,7 @@
             this.guna2DataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.guna2DataGridView2.RowHeadersVisible = false;
             this.guna2DataGridView2.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.guna2DataGridView2.Size = new System.Drawing.Size(404, 345);
+            this.guna2DataGridView2.Size = new System.Drawing.Size(486, 345);
             this.guna2DataGridView2.TabIndex = 32;
             this.guna2DataGridView2.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.GreenSea;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(226)))), ((int)(((byte)(218)))));
@@ -273,7 +273,7 @@
             this.btnExportData.ForeColor = System.Drawing.Color.White;
             this.btnExportData.Image = ((System.Drawing.Image)(resources.GetObject("btnExportData.Image")));
             this.btnExportData.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnExportData.Location = new System.Drawing.Point(919, 136);
+            this.btnExportData.Location = new System.Drawing.Point(1111, 136);
             this.btnExportData.Name = "btnExportData";
             this.btnExportData.Size = new System.Drawing.Size(40, 40);
             this.btnExportData.TabIndex = 33;
@@ -298,7 +298,7 @@
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.label17);
             this.Name = "Report";
-            this.Size = new System.Drawing.Size(1111, 494);
+            this.Size = new System.Drawing.Size(1205, 612);
             this.Load += new System.EventHandler(this.Report_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();

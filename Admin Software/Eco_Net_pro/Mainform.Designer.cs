@@ -32,28 +32,28 @@
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.btnRefreshPictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.btnProfilePictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
             this.PositionInd = new Guna.UI2.WinForms.Guna2PictureBox();
             this.MainPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.MainformPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
             this.btnSetting = new Guna.UI2.WinForms.Guna2Button();
             this.btnAccoManage = new Guna.UI2.WinForms.Guna2Button();
             this.btnReport = new Guna.UI2.WinForms.Guna2Button();
             this.btnTask = new Guna.UI2.WinForms.Guna2Button();
             this.btnTool = new Guna.UI2.WinForms.Guna2Button();
             this.btnDash = new Guna.UI2.WinForms.Guna2Button();
-            this.MainformPanel = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.btnRefreshPictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.btnProfilePictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PositionInd)).BeginInit();
+            this.MainPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRefreshPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnProfilePictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PositionInd)).BeginInit();
-            this.MainPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -86,58 +86,6 @@
             resources.ApplyResources(this.guna2Panel2, "guna2Panel2");
             this.guna2Panel2.Name = "guna2Panel2";
             // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox4.BorderRadius = 12;
-            resources.ApplyResources(this.guna2PictureBox4, "guna2PictureBox4");
-            this.guna2PictureBox4.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2PictureBox4.Image = global::Eco_Net_pro.Properties.Resources.icons8_inbox_96;
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.TabStop = false;
-            this.guna2PictureBox4.UseTransparentBackground = true;
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox3.BorderRadius = 12;
-            resources.ApplyResources(this.guna2PictureBox3, "guna2PictureBox3");
-            this.guna2PictureBox3.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2PictureBox3.Image = global::Eco_Net_pro.Properties.Resources.icons8_alert_96;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.TabStop = false;
-            this.guna2PictureBox3.UseTransparentBackground = true;
-            // 
-            // btnRefreshPictureBox
-            // 
-            this.btnRefreshPictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.btnRefreshPictureBox.BorderRadius = 12;
-            resources.ApplyResources(this.btnRefreshPictureBox, "btnRefreshPictureBox");
-            this.btnRefreshPictureBox.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.btnRefreshPictureBox.Image = global::Eco_Net_pro.Properties.Resources.icons8_refresh;
-            this.btnRefreshPictureBox.ImageRotate = 0F;
-            this.btnRefreshPictureBox.Name = "btnRefreshPictureBox";
-            this.btnRefreshPictureBox.TabStop = false;
-            this.guna2HtmlToolTip1.SetToolTip(this.btnRefreshPictureBox, resources.GetString("btnRefreshPictureBox.ToolTip"));
-            this.btnRefreshPictureBox.UseTransparentBackground = true;
-            this.btnRefreshPictureBox.Click += new System.EventHandler(this.btnRefreshPictureBox_Click);
-            // 
-            // btnProfilePictureBox
-            // 
-            this.btnProfilePictureBox.BackColor = System.Drawing.Color.Transparent;
-            this.btnProfilePictureBox.BorderRadius = 12;
-            resources.ApplyResources(this.btnProfilePictureBox, "btnProfilePictureBox");
-            this.btnProfilePictureBox.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.btnProfilePictureBox.Image = global::Eco_Net_pro.Properties.Resources.icons8_username;
-            this.btnProfilePictureBox.ImageRotate = 0F;
-            this.btnProfilePictureBox.Name = "btnProfilePictureBox";
-            this.btnProfilePictureBox.TabStop = false;
-            this.guna2HtmlToolTip1.SetToolTip(this.btnProfilePictureBox, resources.GetString("btnProfilePictureBox.ToolTip"));
-            this.btnProfilePictureBox.UseTransparentBackground = true;
-            this.btnProfilePictureBox.Click += new System.EventHandler(this.btnProfilePictureBox_Click);
-            // 
             // PositionInd
             // 
             resources.ApplyResources(this.PositionInd, "PositionInd");
@@ -159,6 +107,20 @@
             this.MainPanel.Controls.Add(this.btnDash);
             resources.ApplyResources(this.MainPanel, "MainPanel");
             this.MainPanel.Name = "MainPanel";
+            // 
+            // MainformPanel
+            // 
+            this.MainformPanel.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.MainformPanel, "MainformPanel");
+            this.MainformPanel.FillColor = System.Drawing.Color.AliceBlue;
+            this.MainformPanel.Name = "MainformPanel";
+            // 
+            // guna2HtmlToolTip1
+            // 
+            this.guna2HtmlToolTip1.AllowLinksHandling = true;
+            this.guna2HtmlToolTip1.MaximumSize = new System.Drawing.Size(0, 0);
+            this.guna2HtmlToolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.guna2HtmlToolTip1.ToolTipTitle = "Tips";
             // 
             // btnSetting
             // 
@@ -273,19 +235,57 @@
             this.guna2HtmlToolTip1.SetToolTip(this.btnDash, resources.GetString("btnDash.ToolTip"));
             this.btnDash.Click += new System.EventHandler(this.btnDash_Click);
             // 
-            // MainformPanel
+            // guna2PictureBox4
             // 
-            this.MainformPanel.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.MainformPanel, "MainformPanel");
-            this.MainformPanel.FillColor = System.Drawing.Color.AliceBlue;
-            this.MainformPanel.Name = "MainformPanel";
+            this.guna2PictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox4.BorderRadius = 12;
+            resources.ApplyResources(this.guna2PictureBox4, "guna2PictureBox4");
+            this.guna2PictureBox4.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2PictureBox4.Image = global::Eco_Net_pro.Properties.Resources.icons8_inbox_96;
+            this.guna2PictureBox4.ImageRotate = 0F;
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.TabStop = false;
+            this.guna2PictureBox4.UseTransparentBackground = true;
             // 
-            // guna2HtmlToolTip1
+            // guna2PictureBox3
             // 
-            this.guna2HtmlToolTip1.AllowLinksHandling = true;
-            this.guna2HtmlToolTip1.MaximumSize = new System.Drawing.Size(0, 0);
-            this.guna2HtmlToolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.guna2HtmlToolTip1.ToolTipTitle = "Tips";
+            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox3.BorderRadius = 12;
+            resources.ApplyResources(this.guna2PictureBox3, "guna2PictureBox3");
+            this.guna2PictureBox3.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2PictureBox3.Image = global::Eco_Net_pro.Properties.Resources.icons8_alert_96;
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.TabStop = false;
+            this.guna2PictureBox3.UseTransparentBackground = true;
+            // 
+            // btnRefreshPictureBox
+            // 
+            this.btnRefreshPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.btnRefreshPictureBox.BorderRadius = 12;
+            resources.ApplyResources(this.btnRefreshPictureBox, "btnRefreshPictureBox");
+            this.btnRefreshPictureBox.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.btnRefreshPictureBox.Image = global::Eco_Net_pro.Properties.Resources.icons8_refresh;
+            this.btnRefreshPictureBox.ImageRotate = 0F;
+            this.btnRefreshPictureBox.Name = "btnRefreshPictureBox";
+            this.btnRefreshPictureBox.TabStop = false;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnRefreshPictureBox, resources.GetString("btnRefreshPictureBox.ToolTip"));
+            this.btnRefreshPictureBox.UseTransparentBackground = true;
+            this.btnRefreshPictureBox.Click += new System.EventHandler(this.btnRefreshPictureBox_Click);
+            // 
+            // btnProfilePictureBox
+            // 
+            this.btnProfilePictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.btnProfilePictureBox.BorderRadius = 12;
+            resources.ApplyResources(this.btnProfilePictureBox, "btnProfilePictureBox");
+            this.btnProfilePictureBox.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.btnProfilePictureBox.Image = global::Eco_Net_pro.Properties.Resources.icons8_username;
+            this.btnProfilePictureBox.ImageRotate = 0F;
+            this.btnProfilePictureBox.Name = "btnProfilePictureBox";
+            this.btnProfilePictureBox.TabStop = false;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnProfilePictureBox, resources.GetString("btnProfilePictureBox.ToolTip"));
+            this.btnProfilePictureBox.UseTransparentBackground = true;
+            this.btnProfilePictureBox.Click += new System.EventHandler(this.btnProfilePictureBox_Click);
             // 
             // Mainform
             // 
@@ -300,12 +300,12 @@
             this.Load += new System.EventHandler(this.Mainform_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PositionInd)).EndInit();
+            this.MainPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRefreshPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnProfilePictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PositionInd)).EndInit();
-            this.MainPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

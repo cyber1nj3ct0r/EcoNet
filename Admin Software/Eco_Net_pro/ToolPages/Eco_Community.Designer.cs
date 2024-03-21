@@ -101,7 +101,7 @@
             this.guna2DataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1033, 366);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(1113, 482);
             this.guna2DataGridView1.TabIndex = 32;
             this.guna2DataGridView1.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.GreenSea;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(226)))), ((int)(((byte)(218)))));
@@ -187,7 +187,7 @@
             this.btnAddContent.ForeColor = System.Drawing.Color.White;
             this.btnAddContent.Image = global::Eco_Net_pro.Properties.Resources.icons8_add_32__2_;
             this.btnAddContent.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnAddContent.Location = new System.Drawing.Point(1028, 68);
+            this.btnAddContent.Location = new System.Drawing.Point(1108, 68);
             this.btnAddContent.Name = "btnAddContent";
             this.btnAddContent.Size = new System.Drawing.Size(40, 40);
             this.btnAddContent.TabIndex = 33;
@@ -213,7 +213,7 @@
             this.Controls.Add(this.guna2DataGridView1);
             this.Controls.Add(this.label2);
             this.Name = "Eco_Community";
-            this.Size = new System.Drawing.Size(1114, 494);
+            this.Size = new System.Drawing.Size(1205, 612);
             this.Load += new System.EventHandler(this.Eco_Community_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.ResumeLayout(false);

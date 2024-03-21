@@ -58,7 +58,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Eco_Quest";
-            this.Size = new System.Drawing.Size(1026, 495);
+            this.Size = new System.Drawing.Size(1205, 612);
             this.ResumeLayout(false);
             this.PerformLayout();
 

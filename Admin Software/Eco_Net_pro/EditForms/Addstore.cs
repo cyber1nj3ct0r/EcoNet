@@ -30,19 +30,11 @@ namespace Eco_Net_pro.EditForms
             string name = TextBox2.Text.Trim();
             string about = TextBox3.Text.Trim();
             DateTime openingDateTime = DateTimePicker.Value.ToUniversalTime();
-            string itemid = TextBox4.Text.Trim();
-            string itemname = TextBox5.Text.Trim();
-            string itemabout = TextBox6.Text.Trim();
-            string itemprice = TextBox7.Text.Trim();
 
 
             if (string.IsNullOrWhiteSpace(TextBox1.Text) ||
                 string.IsNullOrWhiteSpace(TextBox2.Text) ||
                 string.IsNullOrWhiteSpace(TextBox3.Text) ||
-                string.IsNullOrWhiteSpace(TextBox4.Text) ||
-                string.IsNullOrWhiteSpace(TextBox5.Text) ||
-                string.IsNullOrWhiteSpace(TextBox6.Text) ||
-                string.IsNullOrWhiteSpace(TextBox7.Text) ||
                 string.IsNullOrWhiteSpace(DateTimePicker.Text))
             {
                 MessageBox.Show("Please fill in all required fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -59,17 +51,6 @@ namespace Eco_Net_pro.EditForms
 
             DocumentReference mainDocRef = db.Collection("OnlineStores").Document(id);
             await mainDocRef.SetAsync(storeData);
-
-            Dictionary<string, object> itemData = new Dictionary<string, object>
-            {
-                { "Name", itemname },
-                { "ItemsAbout", itemabout },
-                { "Price", itemprice }
-            };
-
-            CollectionReference itemsCollectionRef = mainDocRef.Collection("Items");
-            DocumentReference subDocRef = itemsCollectionRef.Document(itemid);
-            await subDocRef.SetAsync(itemData);
 
             MessageBox.Show("Save Successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
