@@ -38,6 +38,13 @@ agriculture and daily life.
 ### Admin Software
 - **Frontend** [@Dilum Sathsara](https://github.com/dilumsathsara)
 - **Backend** [@Ishara Siriwardhana](https://github.com/ishararaviget9)
+  
+![License](https://img.shields.io/badge/planing-done-red)
+![License](https://img.shields.io/badge/Analysis-done-blue)
+![License](https://img.shields.io/badge/Design-done-green)
+![License](https://img.shields.io/badge/Implementation-done-blue)
+![License](https://img.shields.io/badge/Testing_&_Integration-done-8A2BE2)
+![Licens](https://img.shields.io/badge/Maintenance%20Progress-orange)
 
 <div align="center">
 <img align="center" height="180em" src="https://raw.githubusercontent.com/cyber1nj3ct0r/EcoNet/main/assets/79a1ab.ico" alt=ishararaviget9 />
