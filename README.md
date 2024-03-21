@@ -39,7 +39,7 @@ agriculture and daily life.
 </div>
 
 
-# Happy to say
+# Happy to say 🥳
 
 ![License](https://img.shields.io/badge/pre-green)
 ![License](https://img.shields.io/badge/Explore-released-blue)
