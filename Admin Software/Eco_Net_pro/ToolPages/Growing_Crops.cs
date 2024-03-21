@@ -119,7 +119,32 @@ namespace Eco_Net_pro
             }
         }
 
-        private void guna2DataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+       
+
+        private void btnAddFeature_Click(object sender, EventArgs e)
+        {
+            EditForms.AddCrops f2edit = new EditForms.AddCrops();
+            f2edit.ShowDialog();
+        }
+
+       
+
+        private void btnAddVegetable_Click(object sender, EventArgs e)
+        {
+
+            EditForms.AddVege f4edit = new EditForms.AddVege();
+            f4edit.ShowDialog();
+        }
+
+     
+
+        private void btnAddHerbs_Click(object sender, EventArgs e)
+        {
+            EditForms.AddHerbs f6edit = new EditForms.AddHerbs();
+            f6edit.ShowDialog();
+        }
+
+        private void btnAddVegetable_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             // Open the dialog only if the cell value is not null or empty
             EditForms.EditCrops f2edit = new EditForms.EditCrops();
@@ -128,16 +153,9 @@ namespace Eco_Net_pro
             f2edit.TextBox5.Text = this.btnAddVegetable.CurrentRow.Cells[2].Value.ToString();
 
             f2edit.ShowDialog();
-                
         }
 
-        private void btnAddFeature_Click(object sender, EventArgs e)
-        {
-            EditForms.AddCrops f2edit = new EditForms.AddCrops();
-            f2edit.ShowDialog();
-        }
-
-        private void guna2DataGridView2_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        private void guna2DataGridView2_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
         {
             EditForms.EditVege f3edit = new EditForms.EditVege();
             f3edit.TextBox1.Text = this.guna2DataGridView2.CurrentRow.Cells[0].Value.ToString();
@@ -147,14 +165,7 @@ namespace Eco_Net_pro
             f3edit.ShowDialog();
         }
 
-        private void btnAddVegetable_Click(object sender, EventArgs e)
-        {
-
-            EditForms.AddVege f4edit = new EditForms.AddVege();
-            f4edit.ShowDialog();
-        }
-
-        private void guna2DataGridView3_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        private void guna2DataGridView3_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
         {
             EditForms.EditHerbs f5edit = new EditForms.EditHerbs();
             f5edit.TextBox1.Text = this.guna2DataGridView3.CurrentRow.Cells[0].Value.ToString();
@@ -162,12 +173,6 @@ namespace Eco_Net_pro
             f5edit.TextBox5.Text = this.guna2DataGridView3.CurrentRow.Cells[2].Value.ToString();
 
             f5edit.ShowDialog();
-        }
-
-        private void btnAddHerbs_Click(object sender, EventArgs e)
-        {
-            EditForms.AddHerbs f6edit = new EditForms.AddHerbs();
-            f6edit.ShowDialog();
         }
     }
 }

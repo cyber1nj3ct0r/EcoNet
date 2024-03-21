@@ -114,11 +114,12 @@ namespace Eco_Net_pro
             }
         }
 
-        private void btnAddStores_Click(object sender, EventArgs e)
+        
+
+        private void btnAddStores_Click_1(object sender, EventArgs e)
         {
             EditForms.Addstore faddstore = new EditForms.Addstore();
             faddstore.ShowDialog();
-            
         }
     }
 }

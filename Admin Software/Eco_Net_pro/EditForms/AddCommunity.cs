@@ -30,9 +30,13 @@ namespace Eco_Net_pro.EditForms
             string about = TextBox3.Text.Trim();
             string imgurl = TextBox4.Text.Trim();
 
-            if (!IsValidStoreID(title))
+            if (string.IsNullOrWhiteSpace(TextBox1.Text) ||
+                string.IsNullOrWhiteSpace(TextBox2.Text) ||
+                string.IsNullOrWhiteSpace(TextBox3.Text) ||
+                string.IsNullOrWhiteSpace(TextBox4.Text) ||
+                string.IsNullOrWhiteSpace(DateTimePicker1.Text))
             {
-                MessageBox.Show("Please fill out the all fields", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Please fill in all required fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -50,12 +54,6 @@ namespace Eco_Net_pro.EditForms
 
             Close();
         }
-
-        private bool IsValidStoreID(string ids)
-        {
-            return !string.IsNullOrEmpty(ids);
-        }
-
 
     }
 }

@@ -26,6 +26,13 @@ namespace Eco_Net_pro.EditForms
             string itemname = TextBox4.Text.Trim();
             string itemabout = TextBox5.Text.Trim();
 
+            if (string.IsNullOrWhiteSpace(TextBox4.Text) ||
+                string.IsNullOrWhiteSpace(TextBox5.Text))
+            {
+                MessageBox.Show("Please fill in all required fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             CollectionReference growPlantCollection = db.Collection("GrowPlant");
 
             DocumentReference newDocumentRef = await growPlantCollection.AddAsync(new
@@ -38,7 +45,5 @@ namespace Eco_Net_pro.EditForms
 
             Close();
         }
-
-        
     }
 }

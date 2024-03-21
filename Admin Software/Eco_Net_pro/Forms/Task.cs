@@ -44,16 +44,9 @@ namespace Eco_Net_pro
             InitializeComponent();
         }
 
-        private void btnAddContent_Click(object sender, EventArgs e)
-        {
-            EditForms.AddTask ftaskedit = new EditForms.AddTask();
-            ftaskedit.ShowDialog();
-        }
+        
 
-        private void guna2DataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+        
 
         private void Task_Load(object sender, EventArgs e)
         {
@@ -87,6 +80,12 @@ namespace Eco_Net_pro
 
                 }
             }
+        }
+
+        private void btnAddContent(object sender, EventArgs e)
+        {
+            EditForms.AddTask ftaskedit = new EditForms.AddTask();
+            ftaskedit.ShowDialog();
         }
     }
 }

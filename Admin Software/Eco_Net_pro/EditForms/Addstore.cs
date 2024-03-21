@@ -36,22 +36,16 @@ namespace Eco_Net_pro.EditForms
             string itemprice = TextBox7.Text.Trim();
 
 
-            // Validate input data
-            if (!IsValidStoreID(id))
+            if (string.IsNullOrWhiteSpace(TextBox1.Text) ||
+                string.IsNullOrWhiteSpace(TextBox2.Text) ||
+                string.IsNullOrWhiteSpace(TextBox3.Text) ||
+                string.IsNullOrWhiteSpace(TextBox4.Text) ||
+                string.IsNullOrWhiteSpace(TextBox5.Text) ||
+                string.IsNullOrWhiteSpace(TextBox6.Text) ||
+                string.IsNullOrWhiteSpace(TextBox7.Text) ||
+                string.IsNullOrWhiteSpace(DateTimePicker.Text))
             {
-                MessageBox.Show("Invalid Store ID.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            if (!IsValidItemID(itemid))
-            {
-                MessageBox.Show("Invalid Item ID.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            if (!IsValidPrice(itemprice))
-            {
-                MessageBox.Show("Invalid Item Price. It should contain a valid number.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Please fill in all required fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -83,22 +77,6 @@ namespace Eco_Net_pro.EditForms
         }
         private void Addstore_Load(object sender, EventArgs e)
         {
-        }
-
-        private bool IsValidStoreID(string id)
-        {
-            return id.Length > 0 && id.StartsWith("S") && id.Substring(1).All(char.IsDigit);
-        }
-
-        private bool IsValidItemID(string id)
-        {
-            return id.Length > 0 && id.StartsWith("I") && id.Substring(1).All(char.IsDigit);
-        }
-
-        private bool IsValidPrice(string price)
-        {
-            double value;
-            return double.TryParse(price, out value);
         }
     }
 }

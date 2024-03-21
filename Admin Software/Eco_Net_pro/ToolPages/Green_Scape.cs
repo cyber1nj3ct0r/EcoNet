@@ -28,11 +28,7 @@ namespace Eco_Net_pro
             f002edit.ShowDialog();
         }
 
-        private void btnAddContent_Click(object sender, EventArgs e)
-        {
-            EditForms.AddGreen f0a04edit = new EditForms.AddGreen();
-            f0a04edit.ShowDialog();
-        }
+      
 
         private void Green_Scape_Load(object sender, EventArgs e)
         {
@@ -64,6 +60,12 @@ namespace Eco_Net_pro
 
                 }
             }
+        }
+
+        private void btnAddContent_Click_1(object sender, EventArgs e)
+        {
+            EditForms.AddGreen f0a04edit = new EditForms.AddGreen();
+            f0a04edit.ShowDialog();
         }
     }
 }

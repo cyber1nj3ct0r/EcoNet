@@ -5,16 +5,20 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eco_Net_pro", "Eco_Net_pro\Eco_Net_pro.csproj", "{6F9EC8B3-CFE4-49E6-9D8F-E0B8D89E103A}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{0912A890-8ADF-4588-9FD5-FC5F8AD672FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6F9EC8B3-CFE4-49E6-9D8F-E0B8D89E103A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F9EC8B3-CFE4-49E6-9D8F-E0B8D89E103A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9EC8B3-CFE4-49E6-9D8F-E0B8D89E103A}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9EC8B3-CFE4-49E6-9D8F-E0B8D89E103A}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{6F9EC8B3-CFE4-49E6-9D8F-E0B8D89E103A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F9EC8B3-CFE4-49E6-9D8F-E0B8D89E103A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0912A890-8ADF-4588-9FD5-FC5F8AD672FF}.Debug|Any CPU.ActiveCfg = Debug
+		{0912A890-8ADF-4588-9FD5-FC5F8AD672FF}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

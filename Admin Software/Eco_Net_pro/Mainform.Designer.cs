@@ -320,18 +320,40 @@
         private Guna.UI2.WinForms.Guna2Button btnTool;
         private Guna.UI2.WinForms.Guna2Button btnAccoManage;
         private Guna.UI2.WinForms.Guna2Panel MainformPanel;
+#pragma warning disable CS0169 // The field 'Mainform.dashboard1' is never used
         private Dashboard dashboard1;
+#pragma warning restore CS0169 // The field 'Mainform.dashboard1' is never used
+#pragma warning disable CS0169 // The field 'Mainform.tool1' is never used
         private Tool tool1;
+#pragma warning restore CS0169 // The field 'Mainform.tool1' is never used
+#pragma warning disable CS0169 // The field 'Mainform.task1' is never used
         private Task task1;
+#pragma warning restore CS0169 // The field 'Mainform.task1' is never used
+#pragma warning disable CS0169 // The field 'Mainform.report1' is never used
         private Report report1;
+#pragma warning restore CS0169 // The field 'Mainform.report1' is never used
+#pragma warning disable CS0169 // The field 'Mainform.accManage1' is never used
         private AccManage accManage1;
+#pragma warning restore CS0169 // The field 'Mainform.accManage1' is never used
+#pragma warning disable CS0169 // The field 'Mainform.accManage2' is never used
         private AccManage accManage2;
+#pragma warning restore CS0169 // The field 'Mainform.accManage2' is never used
+#pragma warning disable CS0169 // The field 'Mainform.task2' is never used
         private Task task2;
+#pragma warning restore CS0169 // The field 'Mainform.task2' is never used
+#pragma warning disable CS0169 // The field 'Mainform.tool2' is never used
         private Tool tool2;
+#pragma warning restore CS0169 // The field 'Mainform.tool2' is never used
+#pragma warning disable CS0169 // The field 'Mainform.report2' is never used
         private Report report2;
+#pragma warning restore CS0169 // The field 'Mainform.report2' is never used
+#pragma warning disable CS0169 // The field 'Mainform.dashboard2' is never used
         private Dashboard dashboard2;
+#pragma warning restore CS0169 // The field 'Mainform.dashboard2' is never used
         private Guna.UI2.WinForms.Guna2Button btnSetting;
+#pragma warning disable CS0169 // The field 'Mainform.setting1' is never used
         private Setting setting1;
+#pragma warning restore CS0169 // The field 'Mainform.setting1' is never used
         private Guna.UI2.WinForms.Guna2PictureBox PositionInd;
         private Guna.UI2.WinForms.Guna2PictureBox btnRefreshPictureBox;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;

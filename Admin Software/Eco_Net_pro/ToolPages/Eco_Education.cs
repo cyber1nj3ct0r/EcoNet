@@ -83,7 +83,9 @@ namespace Eco_Net_pro
             }
         }
 
-        private void btnAddContent_Click(object sender, EventArgs e)
+        
+
+        private void btnAddContent_Click_1(object sender, EventArgs e)
         {
             EditForms.AddEducation f04edit = new EditForms.AddEducation();
             f04edit.ShowDialog();

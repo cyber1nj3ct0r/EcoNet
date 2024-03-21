@@ -117,10 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="dataGridViewTextBoxColumn7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="dataGridViewTextBoxColumn8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -128,5 +128,25 @@
   </metadata>
   <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnExportData.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAJKSURBVFhH7ZbfThNBFMabnVt9Bmh324UWahNu9Am48ors
+        E2AwoKG+Rh+ksO62SEvVAsGQVAq+B+yf/tmkVwVvxvPNzqSKJF7YbjXhS74AJzPf72xIzpnUo/5blU6i
+        Suk0cuinU2xHFVlOTgTmz46HwsX2kMtyclJg4c9zaADQVfjTQFiWk5MCr3yMLcvJSYBbA15o9XnhqJ98
+        Awqch5tzaECBl5s9vtzoJd8AoMKHPb5EluXkBKjwh5CbZFlOTgJ8EDtXT6AB87D/lL50wzzoWbFjcK4e
+        8Fwt4IbrW8K1cCPvhE/ktekp1wiKZj28jcEEJWcJnHVjG44vnLH924wTrMpr05VZC9fpa8cPgfX3An5n
+        2P5LeXw20qkJww3GP4Ph9L53l65ezxaupNs36wQd6za+2uPpvQThSovURGbfGy/OA65E//MVfc8vyD//
+        TsX2oEK7Xbxw6KUz9RcOMuPX05A8+D0f2w3rFXt+Fi8c9XBRK1yWJ1pqhN+xYLDlZrHfkYlsMMCS5Ylo
+        sFxgvGK55GnDsc2WxbZOLLZ9ZrG35xYrd8jde/4mfb9OZ3EHd5FBWcgUi4sYYEnsRFknLGVr/gjjFdOO
+        vTri7PUxZztfOIVxttvhrHxB7sZ+d0m+kqbfVR1ncBZ3cBcZlKVGNxhgSeyv0h1vjYZLhAk37QaQSfkj
+        ww6eS9zD0qveGg2XaNoNpO2b0cKf4EoL1esX2mbT1bbarrZ95mpvzl1tt0P+Su7GLsOX0rImjDN0Fndw
+        FxmUhUwZ/6h/SanUD0j5R/AYl9dSAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="guna2HtmlToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
   </metadata>
 </root>

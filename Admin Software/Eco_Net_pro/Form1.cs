@@ -20,25 +20,18 @@ namespace Eco_Net_pro
 
         private void Form1_Shown(object sender, EventArgs e)
         {
-            //Use timer class
             tmr = new Timer();
-            //set time interval 3 sec
             tmr.Interval = 4000;
-            //starts the timer
             tmr.Start();
             tmr.Tick += tmr_Tick;
         }
         void tmr_Tick(object sender, EventArgs e)
         {
-            //after 3 sec stop the timer
             tmr.Stop();
-            //display mainform
+            Hide();
             Login mf = new Login();
-            mf.Show();
-            mf.BringToFront();
-
-            //hide this form
-            this.Hide();
+            mf.ShowDialog();
+            Close();
 
         }
 

@@ -34,11 +34,14 @@ namespace Eco_Net_pro.EditForms
             string owner = TextBox7.Text.Trim();
             bool status = false;
 
-
-
-            if (!IsValidStoreID(subject))
+            if (string.IsNullOrWhiteSpace(TextBox2.Text) ||
+                string.IsNullOrWhiteSpace(TextBox3.Text) ||
+                string.IsNullOrWhiteSpace(TextBox4.Text) ||
+                string.IsNullOrWhiteSpace(TextBox5.Text) ||
+                string.IsNullOrWhiteSpace(TextBox6.Text) ||
+                string.IsNullOrWhiteSpace(TextBox7.Text))
             {
-                MessageBox.Show("Please fill out the all fields", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Please fill in all required fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -61,12 +64,5 @@ namespace Eco_Net_pro.EditForms
 
             Close();
         }
-
-        private bool IsValidStoreID(string ids)
-        {
-            return !string.IsNullOrEmpty(ids);
-        }
-
-
     }
 }

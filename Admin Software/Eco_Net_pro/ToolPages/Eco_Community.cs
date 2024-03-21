@@ -42,11 +42,7 @@ namespace Eco_Net_pro
 
         }
 
-        private void btnAddContent_Click(object sender, EventArgs e)
-        {
-            EditForms.AddCommunity f0a4edit = new EditForms.AddCommunity();
-            f0a4edit.ShowDialog();
-        }
+        
 
      
 
@@ -93,6 +89,12 @@ namespace Eco_Net_pro
             f002edit.TextBox4.Text = this.guna2DataGridView1.CurrentRow.Cells[4].Value.ToString();
 
             f002edit.ShowDialog();
+        }
+
+        private void btnAddContent_Click_1(object sender, EventArgs e)
+        {
+            EditForms.AddCommunity f0a4edit = new EditForms.AddCommunity();
+            f0a4edit.ShowDialog();
         }
     }
 }

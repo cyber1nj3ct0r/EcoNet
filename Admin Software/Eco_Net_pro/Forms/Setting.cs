@@ -17,7 +17,9 @@ namespace Eco_Net_pro
     public partial class Setting : UserControl
     {
         private bool isDatabaseConnected = false;
+#pragma warning disable CS0169 // The field 'Setting.database' is never used
         FirestoreDb database;
+#pragma warning restore CS0169 // The field 'Setting.database' is never used
         public Setting()
         {
             InitializeComponent();

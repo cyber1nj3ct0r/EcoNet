@@ -16,7 +16,7 @@ using System.Windows.Forms;
 using static Eco_Net_pro.btnAddStore;
 using static Eco_Net_pro.Eco_Community;
 using static Google.Cloud.Firestore.V1.StructuredAggregationQuery.Types.Aggregation.Types;
-using ClosedXML.Excel;
+using ClosedXML;
 
 namespace Eco_Net_pro
 {
@@ -169,11 +169,11 @@ namespace Eco_Net_pro
 
         private async void ExportToExcel()
         {
-            var workbook = new XLWorkbook();
+            var workbook = new ClosedXML.Excel.XLWorkbook();
             var worksheet = workbook.Worksheets.Add("WeeklyCounts");
 
             worksheet.Cell(1, 1).Value = "Week";
-            int column = 2; 
+            int column = 2;
             foreach (var countField in GetCountFields())
             {
                 worksheet.Cell(1, column).Value = countField;
@@ -183,7 +183,7 @@ namespace Eco_Net_pro
             CollectionReference weeklyCountsRef = database.Collection("WeeklyCounts");
             QuerySnapshot snapshot = await weeklyCountsRef.GetSnapshotAsync();
 
-            int row = 2; 
+            int row = 2;
             foreach (DocumentSnapshot document in snapshot.Documents)
             {
                 int week = document.GetValue<int>("Week");

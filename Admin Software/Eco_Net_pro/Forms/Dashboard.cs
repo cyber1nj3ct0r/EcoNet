@@ -13,7 +13,9 @@ namespace Eco_Net_pro
 {
     public partial class Dashboard : UserControl
     {
+#pragma warning disable CS0169 // The field 'Dashboard.timer' is never used
         Timer timer;
+#pragma warning restore CS0169 // The field 'Dashboard.timer' is never used
         FirestoreDb database;
 
         public Dashboard()
