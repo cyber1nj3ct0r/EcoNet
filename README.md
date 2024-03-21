@@ -44,8 +44,19 @@ agriculture and daily life.
 ![License](https://img.shields.io/badge/Design-done-green)
 ![License](https://img.shields.io/badge/Implementation-done-blue)
 ![License](https://img.shields.io/badge/Testing_&_Integration-done-8A2BE2)
-![Licens](https://img.shields.io/badge/Maintenance%20Progress-orange)
+![Licens](https://img.shields.io/badge/Maintenance-Progress-orange)
 
+### Users Application
+- **Frontend** [@Kavindu](https://github.com/Kavindufonseka)
+- **Backend** [@Sanira](https://github.com/cyber1nj3ct0r)
+
+![Licens](https://img.shields.io/badge/Concept-done-purple)
+![Licens](https://img.shields.io/badge/Prototyping-done-blue)
+![Licens](https://img.shields.io/badge/Development-done-red)
+![Licens](https://img.shields.io/badge/Testing-done-orange)
+![Licens](https://img.shields.io/badge/Deployment-done-yellow)
+![Licens](https://img.shields.io/badge/Release-progress-pink)
+  
 <div align="center">
 <img align="center" height="180em" src="https://raw.githubusercontent.com/cyber1nj3ct0r/EcoNet/main/assets/79a1ab.ico" alt=ishararaviget9 />
 </div>
