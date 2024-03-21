@@ -34,6 +34,11 @@ agriculture and daily life.
 ## 🚀 About Us
 ```Stay with us for More...```
 
+## Authors
+### Admin Software
+- **Frontend** [@Dilum Sathsara](https://github.com/dilumsathsara)
+- **Backend** [@Ishara Siriwardhana](https://github.com/ishararaviget9)
+
 <div align="center">
 <img align="center" height="180em" src="https://raw.githubusercontent.com/cyber1nj3ct0r/EcoNet/main/assets/79a1ab.ico" alt=ishararaviget9 />
 </div>
