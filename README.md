@@ -46,5 +46,5 @@ agriculture and daily life.
 ![Licens](https://img.shields.io/badge/confirmed%20the%20team-8A2BE2)
 
 
-Admin software pre released [Download](https://github.com/cyber1nj3ct0r/EcoNet/blob/main/Admin%20Software/Setup1/Debug/Setup1.msi)
+Admin software pre released [Download](https://github.com/cyber1nj3ct0r/EcoNet/raw/main/Admin%20Software/Setup1/Debug/Setup1.msi)
 
