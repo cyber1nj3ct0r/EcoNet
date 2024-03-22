@@ -429,6 +429,7 @@
             this.btnAddHerbs.Animated = true;
             this.btnAddHerbs.AutoRoundedCorners = true;
             this.btnAddHerbs.BorderRadius = 19;
+            this.btnAddHerbs.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAddHerbs.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnAddHerbs.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnAddHerbs.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -449,6 +450,7 @@
             this.guna2Button1.Animated = true;
             this.guna2Button1.AutoRoundedCorners = true;
             this.guna2Button1.BorderRadius = 19;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -469,6 +471,7 @@
             this.btnAddFeature.Animated = true;
             this.btnAddFeature.AutoRoundedCorners = true;
             this.btnAddFeature.BorderRadius = 19;
+            this.btnAddFeature.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAddFeature.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnAddFeature.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnAddFeature.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -501,7 +504,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label17);
             this.Name = "Growing_Crops";
-            this.Size = new System.Drawing.Size(1205, 612);
+            this.Size = new System.Drawing.Size(1188, 612);
             this.Load += new System.EventHandler(this.Growing_Crops_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnAddVegetable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();

@@ -59,6 +59,7 @@
             this.btnAddContent.Animated = true;
             this.btnAddContent.AutoRoundedCorners = true;
             this.btnAddContent.BorderRadius = 19;
+            this.btnAddContent.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAddContent.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnAddContent.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnAddContent.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -95,6 +96,7 @@
             this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.guna2DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.guna2DataGridView1.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(160)))), ((int)(((byte)(133)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -183,10 +185,10 @@
             this.dataGridViewTextBoxColumn9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dataGridViewTextBoxColumn9.FillWeight = 113.4222F;
             this.dataGridViewTextBoxColumn9.HeaderText = "Tags";
-            this.dataGridViewTextBoxColumn9.MinimumWidth = 50;
+            this.dataGridViewTextBoxColumn9.MinimumWidth = 150;
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
             this.dataGridViewTextBoxColumn9.ReadOnly = true;
-            this.dataGridViewTextBoxColumn9.Width = 50;
+            this.dataGridViewTextBoxColumn9.Width = 150;
             // 
             // dataGridViewTextBoxColumn1
             // 

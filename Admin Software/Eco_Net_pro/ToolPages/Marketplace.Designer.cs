@@ -231,6 +231,7 @@
             // 
             this.btnItemsAdd.Animated = true;
             this.btnItemsAdd.BorderRadius = 4;
+            this.btnItemsAdd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnItemsAdd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnItemsAdd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnItemsAdd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -250,6 +251,7 @@
             // 
             this.btnAddStores.Animated = true;
             this.btnAddStores.BorderRadius = 4;
+            this.btnAddStores.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAddStores.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnAddStores.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnAddStores.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));

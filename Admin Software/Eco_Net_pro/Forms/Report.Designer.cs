@@ -264,6 +264,7 @@
             // 
             this.btnExportData.Animated = true;
             this.btnExportData.BorderRadius = 5;
+            this.btnExportData.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExportData.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnExportData.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnExportData.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));

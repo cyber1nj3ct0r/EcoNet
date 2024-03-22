@@ -87,5 +87,12 @@ namespace Eco_Net_pro
             EditForms.AddTask ftaskedit = new EditForms.AddTask();
             ftaskedit.ShowDialog();
         }
+
+        private void guna2DataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            EditForms.DelTasks ftaskedit = new EditForms.DelTasks();
+            ftaskedit.TextBox1.Text = this.guna2DataGridView1.CurrentRow.Cells[0].Value.ToString();
+            ftaskedit.ShowDialog();
+        }
     }
 }

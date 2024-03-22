@@ -306,6 +306,12 @@
     <Compile Include="EditForms\AddCrops.Designer.cs">
       <DependentUpon>AddCrops.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditForms\DelTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\DelTasks.Designer.cs">
+      <DependentUpon>DelTasks.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditForms\DelGreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -498,6 +504,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EditForms\AddCrops.resx">
       <DependentUpon>AddCrops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\DelTasks.resx">
+      <DependentUpon>DelTasks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditForms\DelGreen.resx">
       <DependentUpon>DelGreen.cs</DependentUpon>

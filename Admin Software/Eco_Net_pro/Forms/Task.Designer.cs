@@ -133,6 +133,7 @@
             this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(191)))), ((int)(((byte)(173)))));
             this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.guna2DataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.guna2DataGridView1_CellDoubleClick);
             // 
             // dataGridViewTextBoxColumn7
             // 
@@ -215,6 +216,7 @@
             this.btnExportData.Animated = true;
             this.btnExportData.AutoRoundedCorners = true;
             this.btnExportData.BorderRadius = 18;
+            this.btnExportData.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExportData.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnExportData.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnExportData.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));

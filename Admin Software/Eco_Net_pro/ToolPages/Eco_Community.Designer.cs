@@ -178,6 +178,7 @@
             this.btnAddContent.Animated = true;
             this.btnAddContent.AutoRoundedCorners = true;
             this.btnAddContent.BorderRadius = 19;
+            this.btnAddContent.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAddContent.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnAddContent.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnAddContent.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));

@@ -109,16 +109,18 @@
             // 
             this.btnGreenStep_Tool.Animated = true;
             this.btnGreenStep_Tool.BorderRadius = 8;
+            this.btnGreenStep_Tool.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGreenStep_Tool.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnGreenStep_Tool.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnGreenStep_Tool.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnGreenStep_Tool.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGreenStep_Tool.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnGreenStep_Tool.FillColor = System.Drawing.Color.SeaGreen;
             this.btnGreenStep_Tool.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnGreenStep_Tool.ForeColor = System.Drawing.Color.White;
-            this.btnGreenStep_Tool.Location = new System.Drawing.Point(7, 257);
+            this.btnGreenStep_Tool.Location = new System.Drawing.Point(0, 243);
             this.btnGreenStep_Tool.Name = "btnGreenStep_Tool";
-            this.btnGreenStep_Tool.Size = new System.Drawing.Size(170, 29);
+            this.btnGreenStep_Tool.Size = new System.Drawing.Size(190, 57);
             this.btnGreenStep_Tool.TabIndex = 5;
             this.btnGreenStep_Tool.Text = "OPEN";
             this.btnGreenStep_Tool.Click += new System.EventHandler(this.btnGreenStep_Tool_Click);
@@ -181,16 +183,18 @@
             // 
             this.btnMarketplace_Tool.Animated = true;
             this.btnMarketplace_Tool.BorderRadius = 8;
+            this.btnMarketplace_Tool.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMarketplace_Tool.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnMarketplace_Tool.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnMarketplace_Tool.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnMarketplace_Tool.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnMarketplace_Tool.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnMarketplace_Tool.FillColor = System.Drawing.Color.SeaGreen;
             this.btnMarketplace_Tool.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnMarketplace_Tool.ForeColor = System.Drawing.Color.White;
-            this.btnMarketplace_Tool.Location = new System.Drawing.Point(10, 257);
+            this.btnMarketplace_Tool.Location = new System.Drawing.Point(0, 243);
             this.btnMarketplace_Tool.Name = "btnMarketplace_Tool";
-            this.btnMarketplace_Tool.Size = new System.Drawing.Size(170, 29);
+            this.btnMarketplace_Tool.Size = new System.Drawing.Size(190, 57);
             this.btnMarketplace_Tool.TabIndex = 6;
             this.btnMarketplace_Tool.Text = "OPEN";
             this.btnMarketplace_Tool.Click += new System.EventHandler(this.btnMarketplace_Tool_Click);
@@ -253,16 +257,18 @@
             // 
             this.btnGrow_Tool.Animated = true;
             this.btnGrow_Tool.BorderRadius = 8;
+            this.btnGrow_Tool.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGrow_Tool.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnGrow_Tool.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnGrow_Tool.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnGrow_Tool.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGrow_Tool.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnGrow_Tool.FillColor = System.Drawing.Color.SeaGreen;
             this.btnGrow_Tool.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnGrow_Tool.ForeColor = System.Drawing.Color.White;
-            this.btnGrow_Tool.Location = new System.Drawing.Point(7, 257);
+            this.btnGrow_Tool.Location = new System.Drawing.Point(0, 243);
             this.btnGrow_Tool.Name = "btnGrow_Tool";
-            this.btnGrow_Tool.Size = new System.Drawing.Size(170, 29);
+            this.btnGrow_Tool.Size = new System.Drawing.Size(190, 57);
             this.btnGrow_Tool.TabIndex = 6;
             this.btnGrow_Tool.Text = "OPEN";
             this.btnGrow_Tool.Click += new System.EventHandler(this.btnGrow_Tool_Click);
@@ -325,16 +331,18 @@
             // 
             this.btnEducation_Tool.Animated = true;
             this.btnEducation_Tool.BorderRadius = 8;
+            this.btnEducation_Tool.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEducation_Tool.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnEducation_Tool.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnEducation_Tool.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnEducation_Tool.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEducation_Tool.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnEducation_Tool.FillColor = System.Drawing.Color.SeaGreen;
             this.btnEducation_Tool.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnEducation_Tool.ForeColor = System.Drawing.Color.White;
-            this.btnEducation_Tool.Location = new System.Drawing.Point(7, 257);
+            this.btnEducation_Tool.Location = new System.Drawing.Point(0, 243);
             this.btnEducation_Tool.Name = "btnEducation_Tool";
-            this.btnEducation_Tool.Size = new System.Drawing.Size(170, 29);
+            this.btnEducation_Tool.Size = new System.Drawing.Size(190, 57);
             this.btnEducation_Tool.TabIndex = 6;
             this.btnEducation_Tool.Text = "OPEN";
             this.btnEducation_Tool.Click += new System.EventHandler(this.btnEducation_Tool_Click);
@@ -397,16 +405,18 @@
             // 
             this.guna2Button5.Animated = true;
             this.guna2Button5.BorderRadius = 8;
+            this.guna2Button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.guna2Button5.FillColor = System.Drawing.Color.SeaGreen;
             this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(7, 256);
+            this.guna2Button5.Location = new System.Drawing.Point(0, 243);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(170, 29);
+            this.guna2Button5.Size = new System.Drawing.Size(190, 57);
             this.guna2Button5.TabIndex = 6;
             this.guna2Button5.Text = "OPEN";
             this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
@@ -469,16 +479,18 @@
             // 
             this.btnEcoQuest_Tool.Animated = true;
             this.btnEcoQuest_Tool.BorderRadius = 8;
+            this.btnEcoQuest_Tool.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEcoQuest_Tool.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnEcoQuest_Tool.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnEcoQuest_Tool.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnEcoQuest_Tool.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEcoQuest_Tool.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnEcoQuest_Tool.FillColor = System.Drawing.Color.SeaGreen;
             this.btnEcoQuest_Tool.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnEcoQuest_Tool.ForeColor = System.Drawing.Color.White;
-            this.btnEcoQuest_Tool.Location = new System.Drawing.Point(10, 256);
+            this.btnEcoQuest_Tool.Location = new System.Drawing.Point(0, 243);
             this.btnEcoQuest_Tool.Name = "btnEcoQuest_Tool";
-            this.btnEcoQuest_Tool.Size = new System.Drawing.Size(170, 29);
+            this.btnEcoQuest_Tool.Size = new System.Drawing.Size(190, 57);
             this.btnEcoQuest_Tool.TabIndex = 6;
             this.btnEcoQuest_Tool.Text = "OPEN";
             this.btnEcoQuest_Tool.Click += new System.EventHandler(this.btnEcoQuest_Tool_Click);
@@ -541,16 +553,18 @@
             // 
             this.btnAquaGuard_Tool.Animated = true;
             this.btnAquaGuard_Tool.BorderRadius = 8;
+            this.btnAquaGuard_Tool.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAquaGuard_Tool.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnAquaGuard_Tool.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnAquaGuard_Tool.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnAquaGuard_Tool.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAquaGuard_Tool.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnAquaGuard_Tool.FillColor = System.Drawing.Color.SeaGreen;
             this.btnAquaGuard_Tool.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnAquaGuard_Tool.ForeColor = System.Drawing.Color.White;
-            this.btnAquaGuard_Tool.Location = new System.Drawing.Point(7, 256);
+            this.btnAquaGuard_Tool.Location = new System.Drawing.Point(0, 243);
             this.btnAquaGuard_Tool.Name = "btnAquaGuard_Tool";
-            this.btnAquaGuard_Tool.Size = new System.Drawing.Size(170, 29);
+            this.btnAquaGuard_Tool.Size = new System.Drawing.Size(190, 57);
             this.btnAquaGuard_Tool.TabIndex = 6;
             this.btnAquaGuard_Tool.Text = "OPEN";
             this.btnAquaGuard_Tool.Click += new System.EventHandler(this.btnAquaGuard_Tool_Click);
@@ -613,16 +627,18 @@
             // 
             this.btnGreenScape_Tool.Animated = true;
             this.btnGreenScape_Tool.BorderRadius = 8;
+            this.btnGreenScape_Tool.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGreenScape_Tool.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnGreenScape_Tool.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnGreenScape_Tool.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnGreenScape_Tool.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnGreenScape_Tool.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnGreenScape_Tool.FillColor = System.Drawing.Color.SeaGreen;
             this.btnGreenScape_Tool.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnGreenScape_Tool.ForeColor = System.Drawing.Color.White;
-            this.btnGreenScape_Tool.Location = new System.Drawing.Point(7, 256);
+            this.btnGreenScape_Tool.Location = new System.Drawing.Point(0, 243);
             this.btnGreenScape_Tool.Name = "btnGreenScape_Tool";
-            this.btnGreenScape_Tool.Size = new System.Drawing.Size(170, 29);
+            this.btnGreenScape_Tool.Size = new System.Drawing.Size(190, 57);
             this.btnGreenScape_Tool.TabIndex = 6;
             this.btnGreenScape_Tool.Text = "OPEN";
             this.btnGreenScape_Tool.Click += new System.EventHandler(this.btnGreenScape_Tool_Click);
@@ -690,7 +706,7 @@
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "Tool";
-            this.Size = new System.Drawing.Size(1188, 612);
+            this.Size = new System.Drawing.Size(1171, 612);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();

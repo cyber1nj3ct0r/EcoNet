@@ -45,7 +45,7 @@ namespace Eco_Net_pro.EditForms
 
             GeoPoint geoPoint = new GeoPoint(latitude, longitude);
 
-            if (string.IsNullOrWhiteSpace(id) ||
+            if (
                 string.IsNullOrWhiteSpace(name) ||
                 string.IsNullOrWhiteSpace(range) ||
                 string.IsNullOrWhiteSpace(about))

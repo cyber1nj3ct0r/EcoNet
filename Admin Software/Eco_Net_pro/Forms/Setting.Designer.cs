@@ -127,6 +127,7 @@
             this.ToggleSwitch2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ToggleSwitch2.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.ToggleSwitch2.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.ToggleSwitch2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ToggleSwitch2.Location = new System.Drawing.Point(375, 20);
             this.ToggleSwitch2.Name = "ToggleSwitch2";
             this.ToggleSwitch2.Size = new System.Drawing.Size(35, 20);
@@ -190,6 +191,7 @@
             this.ToggleSwitch1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ToggleSwitch1.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.ToggleSwitch1.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.ToggleSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ToggleSwitch1.Location = new System.Drawing.Point(375, 21);
             this.ToggleSwitch1.Name = "ToggleSwitch1";
             this.ToggleSwitch1.Size = new System.Drawing.Size(35, 20);
@@ -258,6 +260,7 @@
             // guna2Button1
             // 
             this.guna2Button1.Animated = true;
+            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -386,6 +389,7 @@
             // 
             // btnaddStore
             // 
+            this.btnaddStore.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnaddStore.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnaddStore.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnaddStore.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));

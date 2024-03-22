@@ -32,7 +32,7 @@ namespace Eco_Net_pro.EditForms
             DateTime openingDateTime = DateTimePicker.Value.ToUniversalTime();
 
 
-            if (string.IsNullOrWhiteSpace(TextBox1.Text) ||
+            if (
                 string.IsNullOrWhiteSpace(TextBox2.Text) ||
                 string.IsNullOrWhiteSpace(TextBox3.Text) ||
                 string.IsNullOrWhiteSpace(DateTimePicker.Text))

@@ -30,7 +30,7 @@ namespace Eco_Net_pro.EditForms
             string about = TextBox3.Text.Trim();
             string imgurl = TextBox4.Text.Trim();
 
-            if (string.IsNullOrWhiteSpace(TextBox1.Text) ||
+            if (
                 string.IsNullOrWhiteSpace(TextBox2.Text) ||
                 string.IsNullOrWhiteSpace(TextBox3.Text) ||
                 string.IsNullOrWhiteSpace(TextBox4.Text) ||
