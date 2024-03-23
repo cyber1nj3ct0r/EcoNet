@@ -1,15 +1,7 @@
 ﻿using Eco_Net_pro.Classes;
 using Google.Cloud.Firestore;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static Eco_Net_pro.Eco_Community;
 
 namespace Eco_Net_pro
 {
@@ -93,6 +85,11 @@ namespace Eco_Net_pro
             EditForms.DelTasks ftaskedit = new EditForms.DelTasks();
             ftaskedit.TextBox1.Text = this.guna2DataGridView1.CurrentRow.Cells[0].Value.ToString();
             ftaskedit.ShowDialog();
+        }
+
+        internal static System.Threading.Tasks.Task Delay(int v)
+        {
+            throw new NotImplementedException();
         }
     }
 }

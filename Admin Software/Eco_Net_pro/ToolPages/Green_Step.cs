@@ -1,15 +1,6 @@
-﻿using Google.Cloud.Firestore.V1;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
 using Google.Cloud.Firestore;
-using System.Threading;
 using Eco_Net_pro.Classes;
 
 namespace Eco_Net_pro

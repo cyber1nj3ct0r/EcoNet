@@ -256,6 +256,16 @@ namespace Eco_Net_pro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_refresh_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-refresh-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_setting_96 {
             get {
                 object obj = ResourceManager.GetObject("icons8-setting-96", resourceCulture);

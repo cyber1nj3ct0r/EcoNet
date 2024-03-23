@@ -1,15 +1,7 @@
 ﻿using Eco_Net_pro.Classes;
 using Google.Cloud.Firestore;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static Eco_Net_pro.Eco_Community;
 
 namespace Eco_Net_pro
 {

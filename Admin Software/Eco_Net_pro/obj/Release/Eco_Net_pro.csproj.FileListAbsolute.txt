@@ -6,6 +6,9 @@ C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\Eco_Net_pro.exe.c
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\Eco_Net_pro.exe
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\Eco_Net_pro.pdb
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\aa\Eco_Net_pro.resources.dll
+C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\ClosedXML.dll
+C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\DocumentFormat.OpenXml.dll
+C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\ExcelNumberFormat.dll
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\Google.Api.CommonProtos.dll
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\Google.Api.Gax.dll
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\Google.Api.Gax.Grpc.dll
@@ -49,6 +52,9 @@ C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\System.Runtime.Co
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\System.Threading.Tasks.Extensions.dll
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\System.ValueTuple.dll
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\XLParser.dll
+C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\ClosedXML.xml
+C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\DocumentFormat.OpenXml.xml
+C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\ExcelNumberFormat.xml
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\Google.Api.CommonProtos.pdb
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\Google.Api.CommonProtos.xml
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\Google.Api.Gax.pdb
@@ -105,6 +111,7 @@ C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\System.Runtime.Co
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\System.Threading.Tasks.Extensions.xml
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\System.ValueTuple.xml
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.AddStoreItems.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.AddTask.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.AddGreen.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.AddAqua.resources
@@ -114,6 +121,7 @@ C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditF
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.AddVege.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.Addstore.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.AddCrops.resources
+C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.DelTasks.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.DelGreen.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.DelAqua.resources
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.EditCommunity.resources
@@ -148,11 +156,3 @@ C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\aa\Eco_Net_pro.re
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.csproj.CopyComplete
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.exe
 C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.pdb
-C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\ClosedXML.dll
-C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\DocumentFormat.OpenXml.dll
-C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\ExcelNumberFormat.dll
-C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\ClosedXML.xml
-C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\DocumentFormat.OpenXml.xml
-C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\bin\Release\ExcelNumberFormat.xml
-C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.AddStoreItems.resources
-C:\Users\DELL\source\repos\Eco_Net_pro\Eco_Net_pro\obj\Release\Eco_Net_pro.EditForms.DelTasks.resources

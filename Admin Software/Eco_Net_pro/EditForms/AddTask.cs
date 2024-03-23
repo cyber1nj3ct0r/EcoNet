@@ -1,15 +1,6 @@
 ﻿using Eco_Net_pro.Classes;
 using Google.Cloud.Firestore;
-using Google.Rpc;
-using Guna.UI2.WinForms.Suite;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Eco_Net_pro.EditForms
@@ -57,7 +48,6 @@ namespace Eco_Net_pro.EditForms
                 Client = client,
                 Owner = owner,
                 Status = status
-
             });
 
             MessageBox.Show("New content added to Task collection with ID: " + newDocumentRef.Id, "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);

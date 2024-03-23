@@ -45,9 +45,19 @@
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnExportData = new Guna.UI2.WinForms.Guna2Button();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2HtmlToolTip1 = new Guna.UI2.WinForms.Guna2HtmlToolTip();
+            this.btnReportBuildRefrsh = new Guna.UI2.WinForms.Guna2Button();
+            this.btnExportData = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -76,7 +86,7 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(619, 104);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(35, 516);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(86, 23);
             this.guna2HtmlLabel2.TabIndex = 23;
@@ -126,7 +136,7 @@
             this.guna2DataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(483, 345);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(352, 345);
             this.guna2DataGridView1.TabIndex = 31;
             this.guna2DataGridView1.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.GreenSea;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(226)))), ((int)(((byte)(218)))));
@@ -192,7 +202,16 @@
             this.guna2DataGridView2.ColumnHeadersHeight = 25;
             this.guna2DataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2});
+            this.Column3,
+            this.dataGridViewTextBoxColumn2,
+            this.Column1,
+            this.Column9,
+            this.Column10,
+            this.Column2,
+            this.Column4,
+            this.Column5,
+            this.Column6,
+            this.Column8});
             dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(235)))), ((int)(((byte)(230)))));
             dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -202,7 +221,7 @@
             dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle7;
             this.guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(182)))), ((int)(((byte)(224)))), ((int)(((byte)(216)))));
-            this.guna2DataGridView2.Location = new System.Drawing.Point(619, 136);
+            this.guna2DataGridView2.Location = new System.Drawing.Point(35, 548);
             this.guna2DataGridView2.Name = "guna2DataGridView2";
             this.guna2DataGridView2.ReadOnly = true;
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -215,7 +234,7 @@
             this.guna2DataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.guna2DataGridView2.RowHeadersVisible = false;
             this.guna2DataGridView2.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.guna2DataGridView2.Size = new System.Drawing.Size(486, 345);
+            this.guna2DataGridView2.Size = new System.Drawing.Size(1116, 345);
             this.guna2DataGridView2.TabIndex = 32;
             this.guna2DataGridView2.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.GreenSea;
             this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(226)))), ((int)(((byte)(218)))));
@@ -244,21 +263,114 @@
             // 
             this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dataGridViewTextBoxColumn1.FillWeight = 34.20114F;
-            this.dataGridViewTextBoxColumn1.HeaderText = "Report";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 200;
+            this.dataGridViewTextBoxColumn1.HeaderText = "Id";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 180;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 200;
+            this.dataGridViewTextBoxColumn1.Width = 180;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Green Step";
+            this.Column3.MinimumWidth = 50;
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 116;
             // 
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dataGridViewTextBoxColumn2.FillWeight = 110.7071F;
-            this.dataGridViewTextBoxColumn2.HeaderText = "Date";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 100;
+            this.dataGridViewTextBoxColumn2.HeaderText = "Marketplace";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 120;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            this.dataGridViewTextBoxColumn2.Width = 150;
+            this.dataGridViewTextBoxColumn2.Width = 120;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Growing Crops";
+            this.Column1.MinimumWidth = 50;
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 145;
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "Vegetables";
+            this.Column9.Name = "Column9";
+            this.Column9.ReadOnly = true;
+            this.Column9.Width = 117;
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "Herbs";
+            this.Column10.Name = "Column10";
+            this.Column10.ReadOnly = true;
+            this.Column10.Width = 77;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Eco Education";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 141;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Eco Community";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.Width = 154;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Aqua Guard";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            this.Column5.Width = 123;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Green Scape";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            this.Column6.Width = 127;
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "Record Date";
+            this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
+            this.Column8.Width = 126;
+            // 
+            // guna2HtmlToolTip1
+            // 
+            this.guna2HtmlToolTip1.AllowLinksHandling = true;
+            this.guna2HtmlToolTip1.MaximumSize = new System.Drawing.Size(0, 0);
+            this.guna2HtmlToolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.guna2HtmlToolTip1.ToolTipTitle = "Tips";
+            // 
+            // btnReportBuildRefrsh
+            // 
+            this.btnReportBuildRefrsh.Animated = true;
+            this.btnReportBuildRefrsh.BorderRadius = 5;
+            this.btnReportBuildRefrsh.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReportBuildRefrsh.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnReportBuildRefrsh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnReportBuildRefrsh.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnReportBuildRefrsh.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnReportBuildRefrsh.FillColor = System.Drawing.Color.Gainsboro;
+            this.btnReportBuildRefrsh.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnReportBuildRefrsh.ForeColor = System.Drawing.Color.White;
+            this.btnReportBuildRefrsh.Image = global::Eco_Net_pro.Properties.Resources.icons8_refresh_32;
+            this.btnReportBuildRefrsh.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnReportBuildRefrsh.Location = new System.Drawing.Point(1065, 499);
+            this.btnReportBuildRefrsh.Name = "btnReportBuildRefrsh";
+            this.btnReportBuildRefrsh.Size = new System.Drawing.Size(40, 40);
+            this.btnReportBuildRefrsh.TabIndex = 34;
+            this.guna2HtmlToolTip1.SetToolTip(this.btnReportBuildRefrsh, "Refresh the report Build");
+            this.btnReportBuildRefrsh.Click += new System.EventHandler(this.btnReportBuildRefrsh_Click);
             // 
             // btnExportData
             // 
@@ -269,29 +381,24 @@
             this.btnExportData.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnExportData.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnExportData.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnExportData.FillColor = System.Drawing.Color.PaleTurquoise;
+            this.btnExportData.FillColor = System.Drawing.Color.Gainsboro;
             this.btnExportData.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnExportData.ForeColor = System.Drawing.Color.White;
             this.btnExportData.Image = ((System.Drawing.Image)(resources.GetObject("btnExportData.Image")));
             this.btnExportData.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnExportData.Location = new System.Drawing.Point(1111, 136);
+            this.btnExportData.Location = new System.Drawing.Point(1111, 499);
             this.btnExportData.Name = "btnExportData";
             this.btnExportData.Size = new System.Drawing.Size(40, 40);
             this.btnExportData.TabIndex = 33;
             this.guna2HtmlToolTip1.SetToolTip(this.btnExportData, "Export the reports");
             this.btnExportData.Click += new System.EventHandler(this.btnExportData_Click);
             // 
-            // guna2HtmlToolTip1
-            // 
-            this.guna2HtmlToolTip1.AllowLinksHandling = true;
-            this.guna2HtmlToolTip1.MaximumSize = new System.Drawing.Size(0, 0);
-            this.guna2HtmlToolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.guna2HtmlToolTip1.ToolTipTitle = "Tips";
-            // 
             // Report
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.Controls.Add(this.btnReportBuildRefrsh);
             this.Controls.Add(this.btnExportData);
             this.Controls.Add(this.guna2DataGridView2);
             this.Controls.Add(this.guna2DataGridView1);
@@ -299,7 +406,7 @@
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.label17);
             this.Name = "Report";
-            this.Size = new System.Drawing.Size(1205, 612);
+            this.Size = new System.Drawing.Size(1205, 902);
             this.Load += new System.EventHandler(this.Report_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();
@@ -317,9 +424,19 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private Guna.UI2.WinForms.Guna2Button btnExportData;
         private Guna.UI2.WinForms.Guna2HtmlToolTip guna2HtmlToolTip1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private Guna.UI2.WinForms.Guna2Button btnReportBuildRefrsh;
     }
 }

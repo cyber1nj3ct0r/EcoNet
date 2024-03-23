@@ -1,218 +1,227 @@
 ﻿using Eco_Net_pro.Classes;
 using Google.Cloud.Firestore;
-using Google.Protobuf.WellKnownTypes;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static Eco_Net_pro.btnAddStore;
-using static Eco_Net_pro.Eco_Community;
-using static Google.Cloud.Firestore.V1.StructuredAggregationQuery.Types.Aggregation.Types;
-using ClosedXML;
+using ClosedXML.Excel;
 
 namespace Eco_Net_pro
 {
     public partial class Report : UserControl
     {
+        [FirestoreData]
+        public class DailyReport
+        {
+            [FirestoreProperty]
+            public string Aqua { get; set; }
+            [FirestoreProperty]
+            public string Community { get; set; }
+            [FirestoreProperty]
+            public string Education { get; set; }
+            [FirestoreProperty]
+            public string GreenScape { get; set; }
+            [FirestoreProperty]
+            public string GreenStep { get; set; }
+            [FirestoreProperty]
+            public string GrowPlant { get; set; }
+            [FirestoreProperty]
+            public string Herbs { get; set; }
+            [FirestoreProperty]
+            public string OnlineStores { get; set; }
+            [FirestoreProperty]
+            public DateTime RecordDate { get; internal set; }
+            [FirestoreProperty]
+            public string Vegetables { get; set; }
+        }
+
+
         FirestoreDb database;
 
         public Report()
         {
+            database = FireStoreHelp.Database;
             InitializeComponent();
         }
 
-        private async void Report_Load(object sender, EventArgs e)
+        private void Report_Load(object sender, EventArgs e)
         {
             database = FireStoreHelp.Database;
 
-            GcountDocuments("Aqua", "Aqua_Guard Contents");
-            GcountDocuments("Community", "Community Messages");
-            GcountDocuments("Education", "Eco_Education Contents");
-            GcountDocuments("GreenStep", "GreenStep Actions");
-            GcountDocuments("GrowPlant", "GrowPlant Tutorials");
-            GcountDocuments("Herbs", "Herbs Tutorials");
-            GcountDocuments("OnlineStores", "OnlineStore Stores");
-            GcountDocuments("Vegetables", "Vegetables Tutorials");
+            GcountDocuments();
 
-            ReportcountDocuments("WeeklyCounts");
-
-            Dictionary<string, int> counts = new Dictionary<string, int>();
-            counts["Community"] = await CountDocuments("Community");
-            counts["Aqua"] = await CountDocuments("Aqua");
-            counts["Education"] = await CountDocuments("Education");
-            counts["GreenScape"] = await CountDocuments("GreenScape");
-            counts["GreenStep"] = await CountDocuments("GreenStep");
-            counts["GrowPlant"] = await CountDocuments("GrowPlant");
-            counts["Herbs"] = await CountDocuments("Herbs");
-            counts["OnlineStores"] = await CountDocuments("OnlineStores");
-            counts["Vegetables"] = await CountDocuments("Vegetables");
-
-            SaveCountsToFirestore(counts);
-
+            showAllReortViews();
         }
 
-        private async Task<int> CountDocuments(string collectionName)
+        private async void GcountDocuments()
         {
-            CollectionReference docRef = database.Collection(collectionName);
-            QuerySnapshot snapshot = await docRef.GetSnapshotAsync();
-            return snapshot.Documents.Count;
+            CollectionReference docRef1 = database.Collection("Aqua");
+            QuerySnapshot snapshot1 = await docRef1.GetSnapshotAsync();
+            int count1 = snapshot1.Documents.Count;
+            guna2DataGridView1.Rows.Add("Aqua Guard Contents", count1);
+
+            CollectionReference docRef2 = database.Collection("Community");
+            QuerySnapshot snapshot2 = await docRef2.GetSnapshotAsync();
+            int count2 = snapshot2.Documents.Count;
+            guna2DataGridView1.Rows.Add("Community Messages", count2);
+
+            CollectionReference docRef3 = database.Collection("Education");
+            QuerySnapshot snapshot3 = await docRef3.GetSnapshotAsync();
+            int count3 = snapshot3.Documents.Count;
+            guna2DataGridView1.Rows.Add("Eco Education Contents", count3);
+
+            CollectionReference docRefadd = database.Collection("GreenScape");
+            QuerySnapshot snapshotadd = await docRefadd.GetSnapshotAsync();
+            int countadd = snapshot3.Documents.Count;
+            guna2DataGridView1.Rows.Add("Green Scape Contents", countadd);
+
+            CollectionReference docRef4 = database.Collection("GreenStep");
+            QuerySnapshot snapshot4 = await docRef4.GetSnapshotAsync();
+            int count4 = snapshot4.Documents.Count;
+            guna2DataGridView1.Rows.Add("Green Step Actions", count4);
+
+            CollectionReference docRef5 = database.Collection("GrowPlant");
+            QuerySnapshot snapshot5 = await docRef5.GetSnapshotAsync();
+            int count5 = snapshot5.Documents.Count;
+            guna2DataGridView1.Rows.Add("Grow Plant Tutorials", count5);
+
+            CollectionReference docRef6 = database.Collection("Herbs");
+            QuerySnapshot snapshot6 = await docRef6.GetSnapshotAsync();
+            int count6 = snapshot6.Documents.Count;
+            guna2DataGridView1.Rows.Add("Herbs Tutorials", count6);
+
+            CollectionReference docRef7 = database.Collection("OnlineStores");
+            QuerySnapshot snapshot7 = await docRef7.GetSnapshotAsync();
+            int count7 = snapshot7.Documents.Count;
+            guna2DataGridView1.Rows.Add("Online Store Stores", count7);
+
+            CollectionReference docRef8 = database.Collection("Vegetables");
+            QuerySnapshot snapshot8 = await docRef8.GetSnapshotAsync();
+            int count8 = snapshot8.Documents.Count;
+            guna2DataGridView1.Rows.Add("Vegetables Tutorials", count8);
         }
 
-        private async void SaveCountsToFirestore(Dictionary<string, int> counts)
+        private async void showAllReortViews()
         {
-            CollectionReference weeklyCountsRef = database.Collection("WeeklyCounts");
+            CollectionReference DocDailyRef = database.Collection("DailyReport");
+            QuerySnapshot SnapshotDaily = await DocDailyRef.GetSnapshotAsync();
 
-            int currentWeek = GetWeekOfYear(DateTime.Now);
-
-            Dictionary<string, object> data = new Dictionary<string, object>
-            {
-                { "Week", currentWeek },
-                { "Counts", counts }
-            };
-
-            await weeklyCountsRef.Document($"Week_{currentWeek}").SetAsync(data);
-        }
-
-        private int GetWeekOfYear(DateTime date)
-        {
-            return CultureInfo.CurrentCulture.Calendar.GetWeekOfYear(date, CalendarWeekRule.FirstFourDayWeek, DayOfWeek.Monday);
-        }
-
-
-        private async void GcountDocuments(string collectionName, string displayName)
-        {
-            CollectionReference docRef = database.Collection(collectionName);
-            QuerySnapshot snapshot = await docRef.GetSnapshotAsync();
-            int count = snapshot.Documents.Count;
-            guna2DataGridView1.Rows.Add(displayName, count);
-        }
-
-        private async void ReportcountDocuments(string collectionName)
-        {
-            CollectionReference docRef = database.Collection(collectionName);
-            QuerySnapshot snapshot = await docRef.GetSnapshotAsync();
-
-            foreach (DocumentSnapshot storeDocument in snapshot.Documents)
+            foreach (DocumentSnapshot storeDocument in SnapshotDaily.Documents)
             {
                 if (storeDocument.Exists)
                 {
+                    DailyReport dailyreport = storeDocument.ConvertTo<DailyReport>();
+
                     string documentId = storeDocument.Id;
-                    string weekNew = "";
+                    string greenstep = dailyreport.GreenStep;
+                    string onlinestores = dailyreport.OnlineStores;
+                    string growplant = dailyreport.GrowPlant;
+                    string vegetables = dailyreport.Vegetables;
+                    string herbs = dailyreport.Herbs;
+                    string education = dailyreport.Education;
+                    string community = dailyreport.Community;
+                    string aqua = dailyreport.Aqua;
+                    string greenscape = dailyreport.GreenScape;
+                    DateTime recorddate = dailyreport.RecordDate;
 
-                    int year = 2024;
-                    int weekValue = storeDocument.GetValue<int>("Week");
+                    guna2DataGridView2.Rows.Add(documentId, greenstep, onlinestores, growplant, vegetables, herbs, education, community, aqua, greenscape, recorddate);
 
-                    (string monthName, int weekOfMonth) = GetMonthAndWeekNumberOfWeek(year, weekValue);
-
-                    if (weekOfMonth == 1)
-                    {
-                        weekNew = "First";
-
-                    }else if (weekOfMonth == 2)
-                    {
-                        weekNew = "Second";
-                    }else if (weekOfMonth == 3)
-                    {
-                        weekNew = "Third";
-                    }else if (weekOfMonth == 4)
-                    { 
-                        weekNew = "Forth";
-                    }
-                    else
-                    {
-                        weekNew = "Not";
-                    }
-
-                    guna2DataGridView2.Rows.Add(documentId, monthName + " " + weekNew + " Week");
- 
                 }
             }
         }
-
-        public static (string monthName, int weekNumber) GetMonthAndWeekNumberOfWeek(int year, int weekNumber)
-        {
-            DateTime jan1 = new DateTime(year, 1, 1);
-            int daysOffset = DayOfWeek.Monday - jan1.DayOfWeek;
-
-            DateTime firstMonday = jan1.AddDays(daysOffset);
-            var cal = CultureInfo.CurrentCulture.Calendar;
-            int firstWeek = cal.GetWeekOfYear(jan1, CalendarWeekRule.FirstFourDayWeek, DayOfWeek.Monday);
-
-            var adjustedWeekNumber = weekNumber;
-            if (firstWeek <= 1)
-            {
-                adjustedWeekNumber -= 1;
-            }
-            DateTime result = firstMonday.AddDays(adjustedWeekNumber * 7);
-
-            string monthName = result.ToString("MMMM");
-            int weekOfMonth = (result.Day - 1) / 7 + 1;
-            
-
-            return (monthName, weekOfMonth);
-        }
-
 
         private void btnExportData_Click(object sender, EventArgs e)
         {
             ExportToExcel();
         }
 
-
-        private async void ExportToExcel()
+        private async void ReportSaveInDatabase()
         {
-            var workbook = new ClosedXML.Excel.XLWorkbook();
-            var worksheet = workbook.Worksheets.Add("WeeklyCounts");
+            DateTime currentDate = DateTime.Today;
 
-            worksheet.Cell(1, 1).Value = "Week";
-            int column = 2;
-            foreach (var countField in GetCountFields())
+            CollectionReference dayCountCollectionRef = database.Collection("DayCount");
+            string nowthisdate = currentDate.ToString("yyyy-MM-dd");
+
+            DocumentReference todayDocumentRef = dayCountCollectionRef.Document(nowthisdate);
+
+            DocumentSnapshot todayDocumentSnapshot = await todayDocumentRef.GetSnapshotAsync();
+
+            if (!todayDocumentSnapshot.Exists)
             {
-                worksheet.Cell(1, column).Value = countField;
-                column++;
+                string aqua1 = guna2DataGridView1.Rows[0].Cells[1].Value.ToString();
+                string community1 = guna2DataGridView1.Rows[1].Cells[1].Value.ToString();
+                string education1 = guna2DataGridView1.Rows[2].Cells[1].Value.ToString();
+                string greenscape1 = guna2DataGridView1.Rows[3].Cells[1].Value.ToString();
+                string greenStep1 = guna2DataGridView1.Rows[4].Cells[1].Value.ToString();
+                string growPlant1 = guna2DataGridView1.Rows[5].Cells[1].Value.ToString();
+                string herbs1 = guna2DataGridView1.Rows[6].Cells[1].Value.ToString();
+                string onlineStores1 = guna2DataGridView1.Rows[7].Cells[1].Value.ToString();
+                string vegetables1 = guna2DataGridView1.Rows[8].Cells[1].Value.ToString();
+
+                CollectionReference newCollection = database.Collection("DailyReport");
+
+                DocumentReference newDocumentRef = await newCollection.AddAsync(new
+                {
+                    Aqua = aqua1,
+                    Community = community1,
+                    Education = education1,
+                    GreenScape = greenscape1,
+                    GreenStep = greenStep1,
+                    GrowPlant = growPlant1,
+                    Herbs = herbs1,
+                    OnlineStores = onlineStores1,
+                    Vegetables = vegetables1,
+                    RecordDate = Google.Cloud.Firestore.Timestamp.GetCurrentTimestamp()
+                });
+
+                DocumentReference docRef = database.Collection("DayCount").Document(nowthisdate);
+                await docRef.SetAsync(new { });
+
+                MessageBox.Show("New item added to Daily Report collection with ID: " + newDocumentRef.Id, "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Already Update", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            CollectionReference weeklyCountsRef = database.Collection("WeeklyCounts");
-            QuerySnapshot snapshot = await weeklyCountsRef.GetSnapshotAsync();
+        }
+        private void ExportToExcel()
+        {
+            var workbook = new XLWorkbook();
 
-            int row = 2;
-            foreach (DocumentSnapshot document in snapshot.Documents)
+            var worksheet = workbook.Worksheets.Add("ExportedData");
+
+            for (int i = 0; i < guna2DataGridView2.Columns.Count; i++)
             {
-                int week = document.GetValue<int>("Week");
-                Dictionary<string, object> counts = document.GetValue<Dictionary<string, object>>("Counts");
+                worksheet.Cell(1, i + 1).Value = guna2DataGridView2.Columns[i].HeaderText;
+            }
 
-                worksheet.Cell(row, 1).Value = $"Week {week}";
-
-                foreach (var countField in GetCountFields())
+            for (int i = 0; i < guna2DataGridView2.Rows.Count; i++)
+            {
+                for (int j = 0; j < guna2DataGridView2.Columns.Count; j++)
                 {
-                    int fieldValue = counts.ContainsKey(countField) ? Convert.ToInt32(counts[countField]) : 0;
-                    worksheet.Cell(row, column).Value = fieldValue;
-                    column++;
-                }
+                    object cellValue = guna2DataGridView2.Rows[i].Cells[j].Value;
 
-                row++;
+                    if (cellValue != null)
+                    {
+                        worksheet.Cell(i + 2, j + 1).Value = cellValue.ToString();
+                    }
+                }
             }
 
             SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
-            saveFileDialog.FileName = "WeeklyCounts.xlsx";
+            saveFileDialog.FileName = "ExportedData.xlsx";
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
                 workbook.SaveAs(saveFileDialog.FileName);
             }
+
         }
 
-        private IEnumerable<string> GetCountFields()
+        private void btnReportBuildRefrsh_Click(object sender, EventArgs e)
         {
-            return new string[] { "Aqua", "Community", "Education", "GreenScape", "GreenStep", "GrowPlant", "Herbs", "OnlineStores", "Vegetables" };
+            ReportSaveInDatabase();
         }
     }
+
+
 }

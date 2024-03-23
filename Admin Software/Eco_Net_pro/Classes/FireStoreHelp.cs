@@ -24,6 +24,7 @@ namespace Eco_Net_pro.Classes
               ""client_x509_cert_url"": ""https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-wzx1p%40econet-store.iam.gserviceaccount.com"",
               ""universe_domain"": ""googleapis.com""
             } ";
+
         static string filepath = "";
         public static FirestoreDb Database {  get; private set; }
 
