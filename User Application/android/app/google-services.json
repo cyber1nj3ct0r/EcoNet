@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "153692598076",
+    "project_id": "econet-store",
+    "storage_bucket": "econet-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153692598076:android:26da01b0385e55102ab839",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBESlnUgKnMBshdYjh-e1R_5kQubzgYUTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

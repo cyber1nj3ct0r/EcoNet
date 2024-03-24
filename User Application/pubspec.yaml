@@ -1,0 +1,61 @@
+name: app
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  url_launcher: ^6.1.12
+  carousel_slider: ^4.2.1
+  flutter_native_splash: ^2.3.7
+  smooth_page_indicator: ^1.1.0
+  cloud_firestore: ^4.15.9
+  firebase_core: ^2.27.1
+  firebase_auth: ^4.17.9
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  google_fonts: ^6.1.0
+  flutter_otp_text_field: ^1.1.1
+  fl_chart: ^0.66.2
+  image_picker: ^1.0.7
+  firebase_storage: ^11.6.10
+  expandable_text: ^2.3.0
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+
+flutter_app_name:
+  name: "EcoNet"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/eco.png"
+  min_sdk_android: 21
+
+flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/products/
+    - assets/button_images/
+    - assets/farmers/
+    - assets/artical_images/
+    - assets/verify_image/
+    - assets/logo/
+    - assets/user/
